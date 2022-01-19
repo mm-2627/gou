@@ -3,6 +3,7 @@
 }
 @media screen and (min-width: 768px) {
 
+    /*全ページ共通CSS*/
     body {
         width: 100%;
         text-align: center;
@@ -14,7 +15,6 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
-
     .main {
         width: 50%;
         min-height: 100vh;
@@ -22,85 +22,201 @@
         background-color: rgba(255, 255, 255,0.4);
         padding-bottom: 5vh;
     }
-
-    .main-index {
-        padding-top: 5vh;
-    }
-
     p {
         margin: 0%;
     }
-
     footer {
         padding: 3vh;
         background-color: rgb(243, 118, 22);
     }
+    .left {
+        text-align: left;
+    }
+    .right {
+        text-align: right;
+    }
 
+    
+    /*子ページの共通CSS*/
+    .title{
+        padding-top: 1vh;
+    }
+    .txt-aline {
+        text-align: left;
+    }
+
+
+    /*0.indexのページ*/
+    .main-index {
+        padding-top: 5vh;
+    }
     .icon {
         width: 50%;
         height: auto;
     }
-
-    .icon1 {
-        text-align: left;
-    }
     .icon3 {
-        text-align: left;
         padding-left: 5%;
     }
-    .icon5 {
-        text-align: left;
-    }
     .icon7 {
-        text-align: left;
         padding-left: 5%;
     }
     .icon2 {
-        text-align: right;
         padding-right: 5%;
-    }
-    .icon4 {
-        text-align: right;
     }
     .icon6 {
         text-align: right;
         padding-right: 5%;
     }
 
-    .title img{
+    /*1.大内宿のCSS*/
+    .A img.title {
         width: 30%;
     }
-
-    .comment1 img {
+    .A .contents {
+        padding-top: 3vh;
+    }
+    .A img.comment1 {
         width: 30%;
     }
-
-    .txt-aline {
-        text-align: left;
+    .A .box {
+        display: inline-block;
+        width: 30%;
+    }
+    .A img.comment2 {
+        width: 15vw;
+        padding-right: 7vw;
+    }
+    .A img.comment3 {
+        width: 15vw;
+        padding-right: 5vw;
+    }
+    .A img.comment4 {
+        width: 20vw;
+    }
+    .A img.view {
+        width: 90%;
     }
 
-    .box {
+    /*2.観音沼のCSS*/
+    .B img.title{
+        width: 30%;
+    }
+    .B .box {
+        display: inline-block;
+        width: 0%;
+    }
+    .B .contents {
+        padding-top: 5vh;
+    }
+    .B img.picture1 {
+        width: 30vw;
+        padding-left: 4vw;
+    }
+    .B img.comment1 {
+        width: 6vw;
+        padding-left: 37vw;
+    }
+    .B .blank {
+        padding-bottom: 5vh;
+    }
+    .B img.comment2 {
+        width: 6vw;
+        padding-left: 3vw;
+    }
+    .B img.picture2 {
+        width: 30vw;
+        padding-left: 15vw;
+    }
+    .B img.comment3 {
+        width: 10vw;
+        padding-top: 3vh;
+    }
+    .B img.view {
+        width: 90%;
+    }
+    
+    /*3.猿楽台地のCSS*/
+    .C img.title{
+        width: 50%;
+    }
+    .C img.comment1 {
+        width: 20vw;
+    }
+    .C img.comment2 {
+        width: 20vw;
+    }
+    .C img.comment3 {
+        width: 20vw;
+    }
+    .C img.view {
+        width: 100%;
+    }
+
+    /*4.塔のへつりのCSS*/
+    .D img.title {
+        width: 30%;
+    }
+    .D .contents {
+        padding-top: 3vh;
+    }
+    .D .box {
         display: inline-block;
         width: 20%;
     }
-
-    .comment2 img {
+    .D img.comment1 {
+        width: 13vw;
+    }
+    .D img.comment2 {
         width: 15vw;
+        padding-left: 3vw;
+        padding-bottom: 3vh;
     }
-    .comment2 {
-        padding-right: 7vw;
+    .D img.comment3 {
+        width: 19vw;
+        padding-left: 8vw;
     }
-    .comment3 img {
-        width: 15vw;
-    }
-    .comment3 {
-        padding-right: 3vw;
-    }
-    .comment4 img {
-        width: 20vw;
-    }
-
-    .view img {
+    .D img.view {
         width: 90%;
     }
+
+    /*5.中山風穴のCSS*/
+    .E img.title{
+        width: 30%;
+    }
+    .E .box {
+        display: inline-block;
+        width: 0%;
+    }
+    .E .contents {
+        padding-top: 5vh;
+    }
+    .E img.picture1 {
+        width: 30vw;
+        padding-left: 4vw;
+    }
+    .E img.comment1 {
+        width: 6vw;
+        padding-left: 37vw;
+    }
+    .E .blank {
+        padding-bottom: 5vh;
+    }
+    .E img.comment2 {
+        width: 6vw;
+        padding-left: 3vw;
+    }
+    .E img.picture2 {
+        width: 30vw;
+        padding-left: 15vw;
+    }
+    .E img.comment3 {
+        width: 10vw;
+        padding-top: 3vh;
+    }
+    .E img.view {
+        width: 90%;
+    }
+    
+
+
 }
