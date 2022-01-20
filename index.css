@@ -190,33 +190,99 @@
     .E .contents {
         padding-top: 5vh;
     }
-    .E img.picture1 {
-        width: 30vw;
-        padding-left: 4vw;
-    }
     .E img.comment1 {
-        width: 6vw;
-        padding-left: 37vw;
-    }
-    .E .blank {
-        padding-bottom: 5vh;
+        width: 10vw;
     }
     .E img.comment2 {
-        width: 6vw;
+        width: 25vw;
         padding-left: 3vw;
+    }
+    .E img.picture1 {
+        width: 15vw;
+        padding-left: 30vw;
+    }
+    .E .blank {
+        padding-bottom: 3vh;
     }
     .E img.picture2 {
         width: 30vw;
-        padding-left: 15vw;
+        padding-left: 3vw;
     }
     .E img.comment3 {
         width: 10vw;
+        padding-left: 35vw;
+        padding-bottom: 6vh;
+    }
+
+    /*6.塔のへつりのCSS*/
+    .F img.title{
+        width: 30%;
+    }
+    .F .box {
+        display: inline-block;
+        width: 0%;
+    }
+    .F .contents {
+        padding-top: 5vh;
+    }
+    .F img.comment1 {
+        width: 17vw;
+        padding-left: 13vw;
+    }
+    .F img.comment2 {
+        width: 20vw;
+        padding-left: 3vw;
+    }
+    .F img.picture1 {
+        width: 15vw;
+        padding-left: 30vw;
+    }
+    .F .blank {
+        padding-bottom: 3vh;
+    }
+    .F img.picture2 {
+        width: 20vw;
+        padding-left: 4vw;
+    }
+    .F img.comment3 {
+        width: 15vw;
+        padding-left: 10vw;
+        padding-bottom: 35vh;
+    }
+    .F img.comment4 {
+        width: 15vw;
+        padding-left: 27vw;
+        padding-bottom: 3vh;
+    }
+
+    /*7.湯野上温泉のCSS*/
+    .G img.title {
+        width: 30%;
+    }
+    .G .contents {
         padding-top: 3vh;
     }
-    .E img.view {
-        width: 90%;
+    .G .box {
+        display: inline-block;
+        width: 20%;
     }
-    
+    .G img.comment1 {
+        width: 13vw;
+        padding-left: 1vw;
+    }
+    .G img.comment2 {
+        width: 15vw;
+        padding-left: 4vw;
+        padding-bottom: 5vh;
+    }
+    .G img.comment3 {
+        width: 19vw;
+        padding-left: 9vw;
+    }
+    .G img.view {
+        width: 70%;
+    }
+
 
 
 }
