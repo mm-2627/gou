@@ -239,15 +239,16 @@
     
     @keyframes picture1{
   100% {
-    padding-left: 28vw;
+    top: 25vh;
+    padding-left: 30vw;
     transform: perspective(80px) translateZ(40px);
   }
 }
 
 .picture1{
-  width: 3vw;
-  height: 5vh;
-  top: 10vh;
+  width: 7vw;
+  height: 10vh;
+  top: 15vh;
   padding-left: 40vw;
   position: relative;
   
