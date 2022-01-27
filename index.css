@@ -96,6 +96,83 @@
     .A img.view {
         width: 90%;
     }
+    
+    @keyframes jiji-h{
+  20%{
+    left: 120px;
+    top: 300px;
+    transform: perspective(100px) translateZ(50px);
+    opacity: 1;
+  }
+
+  30%{
+    left: 140px;
+    top: 200px;
+    opacity: 1;
+  }
+
+  40%{
+    left: 300px;
+    top: 100px;
+    opacity: 1;
+  }
+
+  50%{
+    left: 350px;
+    top: 60px;
+    opacity: 1;
+  }
+
+  60% {
+    left: 400px;
+    top: 20px;
+    opacity: 1;
+  }
+
+  70%{
+    left: 600px;
+    top: -30px;
+    opacity: 1;
+  }
+
+   80%{
+    left: 700px;
+    top: 20px;
+    opacity: 1;
+  }
+
+  90%{
+    left: 800px;
+    top: 20px;
+    opacity: 0.5;
+  }
+
+  100%{
+    left: 970px;
+    top: 20px;
+    opacity: 0;
+  }
+}
+
+.jiji img {
+  position: absolute;
+}
+
+.jiji .jiji-h { /*じいさん*/
+  width: 100px;
+  top: 20px;
+  left: 970px;
+  opacity: 0;
+
+  position: relative;
+
+  animation-name: jiji-h;
+  animation-duration: 7s; /*開始から終了までの時間*/
+  animation-iteration-count: 1; /*繰り返し*/
+  animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+
+}
+
 
     /*2.観音沼のCSS*/
     .B img.title{
