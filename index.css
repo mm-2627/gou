@@ -215,7 +215,7 @@
         padding-bottom: 6vh;
     }
 
-    /*6.塔のへつりのCSS*/
+    /*6.へいほう石のCSS*/
     .F img.title{
         width: 30%;
     }
@@ -234,10 +234,36 @@
         width: 20vw;
         padding-left: 3vw;
     }
-    .F img.picture1 {
+    
+    /*うさぎ始*/
+    
+    @keyframes picture1{
+  100% {
+    width: 15vw;
+    padding-left: 30vw;
+    transform: perspective(80px) translateZ(40px);
+  }
+}
+
+.picture1{
+  width: 15vw;
+  padding-left: 30vw;
+  position: relative;
+  
+
+
+  animation-name: picture1;
+  animation-duration: 3s; /*開始から終了までの時間*/
+  animation-iteration-count: 1; /*繰り返し*/
+  animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+}
+    
+    /*.F img.picture1 {
         width: 15vw;
         padding-left: 30vw;
-    }
+    }*/
+    /*うさぎ終*/
+    
     .F .blank {
         padding-bottom: 3vh;
     }
