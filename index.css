@@ -1,4 +1,4 @@
-@media screen and (min-width: 0px) {
+@media screen and (min-width: 0px) { /*スマホ*/
     
         /*全ページ共通CSS*/
     body {
@@ -293,7 +293,7 @@
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) { /*PC*/
 
     /*全ページ共通CSS*/
     body {
