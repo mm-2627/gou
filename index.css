@@ -66,6 +66,91 @@
     .A img.view {
         width: 90%;
     }
+    
+      @keyframes jiji{
+  20%{
+    width: 10vw;
+    margin-left: -40vw;
+    margin-top: 25vh;
+    opacity: 1;
+  }
+
+  30%{
+    width: 9vw;
+    margin-left: -45vw;
+    margin-top: 8vh;
+    opacity: 1;
+  }
+
+  40%{
+    width: 8vw;
+    margin-left: -40vw;
+    margin-top: 2vh;
+    opacity: 1;
+  }
+
+  50%{
+    width: 6vw;
+    margin-left: -33vw;
+    margin-top: 4vh;
+    opacity: 1;
+  }
+
+  60% {
+    width: 4vw;
+    margin-left: -30vw;
+    margin-top: 7vh;
+    opacity: 1;
+  }
+
+  70%{
+    width: 4vw;
+    margin-left: -26vw;
+    margin-top: 5vh;
+    opacity: 1;
+  }
+
+  73%{
+    width: 4vw;
+    margin-left: -23vw;
+    margin-top: 3vh;
+    opacity: 1;
+  }
+
+  75%{
+    width: 4vw;
+    margin-left: -20vw;
+    margin-top: 1vh;
+    opacity: 1;
+  }
+
+   80%{
+     width: 7vw;
+     margin-left: -10vw;
+     margin-top: 10vh;
+    opacity: 1;
+   }
+
+  100%{
+    width: 7vw;
+    margin-left: -3vw;
+    margin-top: 9vh;
+    opacity: 0;
+  }
+}
+
+.oouti .jiji {
+  width: 10vw;
+  margin-left: -40vw;
+  margin-top: 25vh;
+  opacity: 1;
+  position: absolute;
+  animation-name: jiji;
+  animation-duration: 7s; /*開始から終了までの時間*/
+  animation-iteration-count: 1; /*繰り返し*/
+  animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+}
+
 
     /*2.観音沼のCSS*/
     .B img.title{
