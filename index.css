@@ -285,37 +285,10 @@
         padding-left: 40%;
     }
     
-    /*うさぎ始*/
-    
-    @keyframes picture1{
-  100% {
-    left: 30vw;
-    top: 30vw;
-    transform: perspective(80px) translateZ(40px);
-  }
-}
-
-.picture1{
- width:  7vh;
-  height: 10vw;
-  position: relative;
-  left: 40vw;
-  top: 6vh;
-  
-
-
-  animation-name: picture1;
-  animation-duration: 5s; /*開始から終了までの時間*/
-  animation-iteration-count: 1; /*繰り返し*/
-  animation-timing-function: ease; /*加速度  ease:ゆっくり*/
-}
-    
-    
-    /*うさぎ終*/
-    /*.F img.picture1 {
+   .F img.picture1 {
         width: 100%;
         padding-left: 50%;
-    }*/
+    }
     .F .blank {
         padding-bottom: 3vh;
     }
@@ -702,36 +675,10 @@
         padding-bottom: 50%;
     }
     
-    /*うさぎ始*/
-    
-    @keyframes picture1{
-  100% {
-    left: 30vw;
-    top: 30vw;
-    transform: perspective(80px) translateZ(40px);
-  }
-}
-
-.picture1{
- width:  7vh;
-  height: 10vw;
-  position: relative;
-  left: 40vw;
-  top: 6vh;
-  
-
-
-  animation-name: picture1;
-  animation-duration: 5s; /*開始から終了までの時間*/
-  animation-iteration-count: 1; /*繰り返し*/
-  animation-timing-function: ease; /*加速度  ease:ゆっくり*/
-}
-    
-    /*.F img.picture1 {
+   .F img.picture1 {
         width: 15vw;
         padding-left: 30vw;
-    }*/
-    /*うさぎ終*/
+    }
     
     .F .blank {
         padding-bottom: 3vh;
