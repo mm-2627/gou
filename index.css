@@ -67,6 +67,77 @@
         width: 90%;
     }
     
+    @keyframes jiji{
+  20%{
+    width: 20vw;
+    margin-left: -75vw;
+    margin-top: 27vh;
+    opacity: 1;
+  }
+
+  30%{
+    width: 15vw;
+    margin-left: -72vw;
+    margin-top: 10vh;
+    opacity: 1;
+  }
+
+  40%{
+    width: 12vw;
+    margin-left: -77vw;
+    margin-top: 6vh;
+    opacity: 1;
+  }
+
+  50%{
+    width: 10vw;
+    margin-left: -60vw;
+    margin-top: 4vh;
+    opacity: 1;
+  }
+
+  60% {
+    width: 7vw;
+    margin-left: -57vw;
+    margin-top: 6vh;
+    opacity: 1;
+  }
+
+  70%{
+     width: 7vw;
+     margin-left: -10vw;
+     margin-top: 10vh;
+    opacity: 1;
+  }
+
+  90%{
+    width: 16vw;
+    margin-left: -4vw;
+    margin-top: 9vh;
+    opacity: 0;
+  }
+
+  100%{
+    width: 16vw;
+    margin-left: -3vw;
+    margin-top: 9vh;
+    opacity: 0;
+  }
+}
+
+.oouti .jiji {
+  width: 20vw;
+  margin-left: -75vw;
+  margin-top: 27vh;
+  opacity: 1;
+  position: absolute;
+
+  animation-name: jiji;
+  animation-duration: 7s; /*開始から終了までの時間*/
+  animation-iteration-count: 1; /*繰り返し*/
+  animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+}
+    
     
     /*2.観音沼のCSS*/
     .B img.title{
