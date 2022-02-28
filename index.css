@@ -1,730 +1,728 @@
 @media screen and (min-width: 0px) { /*スマホ*/
     
-        /*全ページ共通CSS*/
-    body {
-        width: 100%;
-        text-align: center;
-        background-color: rgb(255, 221, 208);
-        margin: 0;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-    .main {
-        width: 100%;
-        min-height: 100vh;
-        margin: 0 auto;
-        background-color: rgba(255, 255, 255,0.4);
-        padding-top: 1vh;
-        padding-bottom: 5vh;
-    }
-    p {
-        margin: 0%;
-    }
-    footer {
-        padding: 3vh;
-        background-color: rgb(243, 118, 22);
-    }
+    /*全ページ共通CSS*/
+body {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 221, 208);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255,0.4);
+    padding-top: 1vh;
+    padding-bottom: 5vh;
+}
+p {
+    margin: 0%;
+}
+footer {
+    padding: 3vh;
+    background-color: rgb(243, 118, 22);
+}
 
-    /*子ページの共通CSS*/
-    .title{
-        padding-top: 1vh;
-    }
-    .txt-aline {
-        text-align: left;
-    }
-    
-    /*0.indexのページ*/
-    .icon {
-        width: 80%;
-        height: auto;
-    }
+/*子ページの共通CSS*/
+.title{
+    padding-top: 1vh;
+}
+.txt-aline {
+    text-align: left;
+}
 
-    /*1.大内宿のCSS*/
-    .A img.title {
-        width: 30%;
-    }
-    .A .contents {
-        padding-top: 3vh;
-    }
-    .A img.comment1 {
-        width: 30%;
-    }
-    .A .box {
-        display: inline-block;
-        width: 30%;
-    }
-    .A img.comment2 {
-        width: 100%;
-        padding-left: 5%;
-    }
-    .A img.comment3 {
-        width: 120%;
-    }
-    .A img.comment4 {
-        width: 120%;
-    }
-    .A img.view {
-        width: 90%;
-    }
-    
-    @keyframes jiji{
-  20%{
-    width: 20vw;
-    margin-left: -75vw;
-    margin-top: 27vh;
-    opacity: 1;
-  }
+/*0.indexのページ*/
+.icon {
+    width: 80%;
+    height: auto;
+}
 
-  30%{
-    width: 15vw;
-    margin-left: -72vw;
-    margin-top: 10vh;
-    opacity: 1;
-  }
+/*1.大内宿のCSS*/
+.A img.title {
+    width: 30%;
+}
+.A .contents {
+    padding-top: 3vh;
+}
+.A img.comment1 {
+    width: 30%;
+}
+.A .box {
+    display: inline-block;
+    width: 30%;
+}
+.A img.comment2 {
+    width: 100%;
+    padding-left: 5%;
+}
+.A img.comment3 {
+    width: 120%;
+}
+.A img.comment4 {
+    width: 120%;
+}
+.A img.view {
+    width: 90%;
+}
 
-  40%{
-    width: 12vw;
-    margin-left: -77vw;
-    margin-top: 6vh;
-    opacity: 1;
-  }
+@keyframes jiji{
+20%{
+width: 20vw;
+margin-left: -75vw;
+margin-top: 27vh;
+opacity: 1;
+}
 
-  50%{
-    width: 10vw;
-    margin-left: -60vw;
-    margin-top: 4vh;
-    opacity: 1;
-  }
+30%{
+width: 15vw;
+margin-left: -72vw;
+margin-top: 10vh;
+opacity: 1;
+}
 
-  60% {
-    width: 7vw;
-    margin-left: -57vw;
-    margin-top: 6vh;
-    opacity: 1;
-  }
+40%{
+width: 12vw;
+margin-left: -77vw;
+margin-top: 6vh;
+opacity: 1;
+}
 
-  70%{
-     width: 7vw;
-     margin-left: -10vw;
-     margin-top: 10vh;
-    opacity: 1;
-  }
+50%{
+width: 10vw;
+margin-left: -60vw;
+margin-top: 4vh;
+opacity: 1;
+}
 
-  90%{
-    width: 16vw;
-    margin-left: -4vw;
-    margin-top: 9vh;
-    opacity: 0;
-  }
+60% {
+width: 7vw;
+margin-left: -57vw;
+margin-top: 6vh;
+opacity: 1;
+}
 
-  100%{
-    width: 16vw;
-    margin-left: -3vw;
-    margin-top: 9vh;
-    opacity: 0;
-  }
+70%{
+ width: 7vw;
+ margin-left: -10vw;
+ margin-top: 10vh;
+opacity: 1;
+}
+
+90%{
+width: 16vw;
+margin-left: -4vw;
+margin-top: 9vh;
+opacity: 0;
+}
+
+100%{
+width: 16vw;
+margin-left: -3vw;
+margin-top: 9vh;
+opacity: 0;
+}
 }
 
 .oouti .jiji {
-  width: 20vw;
-  margin-left: -75vw;
-  margin-top: 27vh;
-  opacity: 1;
-  position: absolute;
+width: 20vw;
+margin-left: -75vw;
+margin-top: 27vh;
+opacity: 1;
+position: absolute;
 
-  animation-name: jiji;
-  animation-duration: 7s; /*開始から終了までの時間*/
-  animation-iteration-count: 1; /*繰り返し*/
-  animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+animation-name: jiji;
+animation-duration: 7s; /*開始から終了までの時間*/
+animation-iteration-count: 1; /*繰り返し*/
+animation-timing-function: ease; /*加速度  ease:ゆっくり*/
 }
-    
-    
-    /*2.観音沼のCSS*/
-    .B img.title{
-        width: 30%;
-    }
-    .B .box {
-        display: inline-block;
-        width: 0%;
-    }
-    .B .contents {
-        padding-top: 5vh;
-    }
-    .B img.picture1 {
-        width: 60vw;
-        padding-left: 10vw;
-    }
-    .B img.comment1 {
-        width: 10vw;
-        padding-left: 75vw;
-        padding-bottom: 5vh;
-    }
-    .B .blank {
-        padding-bottom: 5vh;
-    }
-    .B img.comment2 {
-        width: 10vw;
-        padding-left: 5vw;
-        padding-bottom: 5vh;
-    }
-    .B img.picture2 {
-        width: 60vw;
-        padding-left: 25vw;
-    }
-    .B img.comment3 {
-        width: 20%;
-        padding-top: 3vh;
-    }
-    .B img.view {
-        width: 90%;
-    }
 
-    /*3.猿楽台地のCSS*/
-    .C .contents{
-        text-align: left;
-    }
-    .C img.title{
-        width: 50%;
-    }
-    .C img.comment1 {
-        width: 30vw;
-        padding-left: 60%;
-    }
-    .C img.comment2 {
-        width: 30vw;
-        padding-left: 10%;
-    }
-    .C img.comment3 {
-        width: 30vw;
-        padding-left: 30%;
-    }
-    .C img.view {
-        width: 100%;
-    }
-    
-    /*4.塔のへつりのCSS*/
-    .D img.title {
-        width: 30%;
-    }
-    .D .contents {
-        padding-top: 3vh;
-    }
-    .D .box {
-        display: inline-block;
-        width: 20%;
-    }
-    .D img.comment1 {
-        width: 130%;
-        padding-left: 15%;
-    }
-    .D img.comment2 {
-        width: 150%;
-        padding-left: 35%;
-        padding-bottom: 30%;
-    }
-    .D img.comment3 {
-        width: 200%;
-        padding-left: 70%;
-    }
-    .D img.view {
-        width: 90%;
-    }
-    
-    /*5.中山風穴のCSS*/
-    .E img.title{
-        width: 30%;
-    }
-    .E .box {
-        display: inline-block;
-        width: 0%;
-    }
-    .E .contents {
-        padding-top: 5vh;
-    }
-    .E img.comment1 {
-        width: 20%;
-    }
-    .E img.comment2 {
-        width: 50vw;
-        padding-left: 3vw;
-    }
-    .E img.picture1 {
-        width: 30vw;
-        padding-left: 60vw;
-    }
-    .E .blank {
-        padding-bottom: 3vh;
-    }
-    .E img.picture2 {
-        width: 60vw;
-        padding-left: 3vw;
-    }
-    .E img.comment3 {
-        width: 20vw;
-        padding-left: 70vw;
-        padding-bottom: 6vh;
-    }
 
-    /*6.へいほう石のCSS*/
-    .F img.title{
-        width: 30%;
-    }
-    .F .box {
-        display: inline-block;
-        width: 20%;
-    }
-    .F .contents {
-        padding-top: 5vh;
-    }
-    .F img.comment1 {
-        width: 35%;
-        padding-left: 30%;
-    }
-    .F img.comment2 {
-        width: 200%;
-        padding-left: 40%;
-    }
-    
-   .F img.picture1 {
-        width: 100%;
-        padding-left: 50%;
-    }
-    .F .blank {
-        padding-bottom: 3vh;
-    }
-    .F img.picture2 {
-        width: 250%;
-        padding-left: 20%;
-    }
-    .F img.comment3 {
-        width: 170%;
-        padding-right: 10%;
-        padding-bottom: 230%;
-    }
-    .F img.comment4 {
-        width: 180%;
-        padding-left: 80%;
-        padding-bottom: 50%;
-    }
+/*2.観音沼のCSS*/
+.B img.title{
+    width: 30%;
+}
+.B .box {
+    display: inline-block;
+    width: 0%;
+}
+.B .contents {
+    padding-top: 5vh;
+}
+.B img.picture1 {
+    width: 60vw;
+    padding-left: 10vw;
+}
+.B img.comment1 {
+    width: 10vw;
+    padding-left: 75vw;
+    padding-bottom: 5vh;
+}
+.B .blank {
+    padding-bottom: 5vh;
+}
+.B img.comment2 {
+    width: 10vw;
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+}
+.B img.picture2 {
+    width: 60vw;
+    padding-left: 25vw;
+}
+.B img.comment3 {
+    width: 20%;
+    padding-top: 3vh;
+}
+.B img.view {
+    width: 90%;
+}
 
-    /*7.湯野上温泉のCSS*/
-    .G img.title {
-        width: 30%;
-    }
-    .G .contents {
-        padding-top: 3vh;
-    }
-    .G .box {
-        display: inline-block;
-        width: 20%;
-    }
-    .G img.comment1 {
-        width: 130%;
-        padding-left: 10%;
-    }
-    .G img.comment2 {
-        width: 150%;
-        padding-left: 30%;
-        padding-bottom: 20%;
-    }
-    .G img.comment3 {
-        width: 190%;
-        padding-left: 80%;
-    }
-    .G img.view {
-        width: 70%;
-        padding-top: 5%;
-    }
+/*3.猿楽台地のCSS*/
+.C .contents{
+    text-align: left;
+}
+.C img.title{
+    width: 50%;
+}
+.C img.comment1 {
+    width: 30vw;
+    padding-left: 60%;
+}
+.C img.comment2 {
+    width: 30vw;
+    padding-left: 10%;
+}
+.C img.comment3 {
+    width: 30vw;
+    padding-left: 30%;
+}
+.C img.view {
+    width: 100%;
+}
+
+/*4.塔のへつりのCSS*/
+.D img.title {
+    width: 30%;
+}
+.D .contents {
+    padding-top: 3vh;
+}
+.D .box {
+    display: inline-block;
+    width: 20%;
+}
+.D img.comment1 {
+    width: 130%;
+    padding-left: 15%;
+}
+.D img.comment2 {
+    width: 150%;
+    padding-left: 35%;
+    padding-bottom: 30%;
+}
+.D img.comment3 {
+    width: 200%;
+    padding-left: 70%;
+}
+.D img.view {
+    width: 90%;
+}
+
+/*5.中山風穴のCSS*/
+.E img.title{
+    width: 30%;
+}
+.E .box {
+    display: inline-block;
+    width: 0%;
+}
+.E .contents {
+    padding-top: 5vh;
+}
+.E img.comment1 {
+    width: 20%;
+}
+.E img.comment2 {
+    width: 50vw;
+    padding-left: 3vw;
+}
+.E img.picture1 {
+    width: 30vw;
+    padding-left: 60vw;
+}
+.E .blank {
+    padding-bottom: 3vh;
+}
+.E img.picture2 {
+    width: 60vw;
+    padding-left: 3vw;
+}
+.E img.comment3 {
+    width: 20vw;
+    padding-left: 70vw;
+    padding-bottom: 6vh;
+}
+
+/*6.へいほう石のCSS*/
+.F img.title{
+    width: 30%;
+}
+.F .box {
+    display: inline-block;
+    width: 20%;
+}
+.F .contents {
+    padding-top: 5vh;
+}
+.F img.comment1 {
+    width: 35%;
+    padding-left: 30%;
+}
+.F img.comment2 {
+    width: 200%;
+    padding-left: 40%;
+}
+
+.F img.picture1 {
+    width: 100%;
+    padding-left: 50%;
+}
+.F .blank {
+    padding-bottom: 3vh;
+}
+.F img.picture2 {
+    width: 250%;
+    padding-left: 20%;
+}
+.F img.comment3 {
+    width: 170%;
+    padding-right: 10%;
+    padding-bottom: 230%;
+}
+.F img.comment4 {
+    width: 180%;
+    padding-left: 80%;
+    padding-bottom: 50%;
+}
+
+/*7.湯野上温泉のCSS*/
+.G img.title {
+    width: 30%;
+}
+.G .contents {
+    padding-top: 3vh;
+}
+.G .box {
+    display: inline-block;
+    width: 20%;
+}
+.G img.comment1 {
+    width: 130%;
+    padding-left: 10%;
+}
+.G img.comment2 {
+    width: 150%;
+    padding-left: 30%;
+    padding-bottom: 20%;
+}
+.G img.comment3 {
+    width: 190%;
+    padding-left: 80%;
+}
+.G img.view {
+    width: 70%;
+    padding-top: 5%;
+}
 
 }
 
 @media screen and (min-width: 768px) { /*PC*/
 
-    /*全ページ共通CSS*/
-    body {
-        width: 100%;
-        text-align: center;
-        background-color: rgb(255, 221, 208);
-        margin: 0;
-        background-size: cover;
-        background-image: url(img/logo/logo.png);
-        background-size: 23%;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-    .main {
-        width: 50%;
-        min-height: 100vh;
-        margin: 0 auto;
-        background-color: rgba(255, 255, 255,0.4);
-        padding-bottom: 5vh;
-    }
-    p {
-        margin: 0%;
-    }
-    footer {
-        padding: 3vh;
-        background-color: rgb(243, 118, 22);
-    }
-    .left {
-        text-align: left;
-    }
-    .right {
-        text-align: right;
-    }
-
-    
-    /*子ページの共通CSS*/
-    .title{
-        padding-top: 1vh;
-    }
-    .txt-aline {
-        text-align: left;
-    }
+/*全ページ共通CSS*/
+body {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 221, 208);
+    margin: 0;
+    background-size: cover;
+    background-image: url(img/logo/logo.png);
+    background-size: 23%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main {
+    width: 50%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255,0.4);
+    padding-bottom: 5vh;
+}
+p {
+    margin: 0%;
+}
+footer {
+    padding: 3vh;
+    background-color: rgb(243, 118, 22);
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
 
 
-    /*0.indexのページ*/
-    .icon {
-        width: 50%;
-        height: auto;
-    }
-    .icon3 {
-        padding-left: 5%;
-    }
-    .icon7 {
-        padding-left: 5%;
-    }
-    .icon2 {
-        padding-right: 5%;
-    }
-    .icon6 {
-        text-align: right;
-        padding-right: 5%;
-    }
+/*子ページの共通CSS*/
+.title{
+    padding-top: 1vh;
+}
+.txt-aline {
+    text-align: left;
+}
 
-    /*1.大内宿のCSS*/
-    .A img.title {
-        width: 30%;
-    }
-    .A .contents {
-        padding-top: 3vh;
-    }
-    .A img.comment1 {
-        width: 30%;
-    }
-    .A .box {
-        display: inline-block;
-        width: 30%;
-    }
-    .A img.comment2 {
-        width: 100%;
-        padding-left: 5%;
-    }
-    .A img.comment3 {
-        width: 120%;
-    }
-    .A img.comment4 {
-        width: 130%;
-    }
-    .A img.view {
-        width: 90%;
-    }    
-    
-    @keyframes jiji{
-  20%{
-    width: 10vw;
-    margin-left: -40vw;
-    margin-top: 25vh;
-    opacity: 1;
-  }
 
-  30%{
-    width: 9vw;
-    margin-left: -45vw;
-    margin-top: 8vh;
-    opacity: 1;
-  }
+/*0.indexのページ*/
+.icon {
+    width: 50%;
+    height: auto;
+}
+.icon3 {
+    padding-left: 5%;
+}
+.icon7 {
+    padding-left: 5%;
+}
+.icon2 {
+    padding-right: 5%;
+}
+.icon6 {
+    text-align: right;
+    padding-right: 5%;
+}
 
-  40%{
-    width: 8vw;
-    margin-left: -40vw;
-    margin-top: 2vh;
-    opacity: 1;
-  }
+/*1.大内宿のCSS*/
+.A img.title {
+    width: 30%;
+}
+.A .contents {
+    padding-top: 3vh;
+}
+.A img.comment1 {
+    width: 30%;
+}
+.A .box {
+    display: inline-block;
+    width: 30%;
+}
+.A img.comment2 {
+    width: 100%;
+    padding-left: 5%;
+}
+.A img.comment3 {
+    width: 120%;
+}
+.A img.comment4 {
+    width: 130%;
+}
+.A img.view {
+    width: 90%;
+}    
 
-  50%{
-    width: 6vw;
-    margin-left: -33vw;
-    margin-top: 4vh;
-    opacity: 1;
-  }
+@keyframes jiji{
+20%{
+width: 10vw;
+margin-left: -40vw;
+margin-top: 25vh;
+opacity: 1;
+}
 
-  60% {
-    width: 4vw;
-    margin-left: -30vw;
-    margin-top: 7vh;
-    opacity: 1;
-  }
+30%{
+width: 9vw;
+margin-left: -45vw;
+margin-top: 8vh;
+opacity: 1;
+}
 
-  70%{
-    width: 4vw;
-    margin-left: -26vw;
-    margin-top: 5vh;
-    opacity: 1;
-  }
+40%{
+width: 8vw;
+margin-left: -40vw;
+margin-top: 2vh;
+opacity: 1;
+}
 
-  73%{
-    width: 4vw;
-    margin-left: -23vw;
-    margin-top: 3vh;
-    opacity: 1;
-  }
+50%{
+width: 6vw;
+margin-left: -33vw;
+margin-top: 4vh;
+opacity: 1;
+}
 
-  75%{
-    width: 4vw;
-    margin-left: -20vw;
-    margin-top: 1vh;
-    opacity: 1;
-  }
+60% {
+width: 4vw;
+margin-left: -30vw;
+margin-top: 7vh;
+opacity: 1;
+}
 
-   80%{
-     width: 7vw;
-     margin-left: -10vw;
-     margin-top: 10vh;
-    opacity: 1;
-  }
+70%{
+width: 4vw;
+margin-left: -26vw;
+margin-top: 5vh;
+opacity: 1;
+}
 
-  100%{
-    width: 7vw;
-    margin-left: -3vw;
-    margin-top: 9vh;
-    opacity: 0;
-  }
+73%{
+width: 4vw;
+margin-left: -23vw;
+margin-top: 3vh;
+opacity: 1;
+}
+
+75%{
+width: 4vw;
+margin-left: -20vw;
+margin-top: 1vh;
+opacity: 1;
+}
+
+80%{
+ width: 7vw;
+ margin-left: -10vw;
+ margin-top: 10vh;
+opacity: 1;
+}
+
+100%{
+width: 7vw;
+margin-left: -3vw;
+margin-top: 9vh;
+opacity: 0;
+}
 }
 
 .oouti .jiji {
-  width: 10vw;
-  margin-left: -40vw;
-  margin-top: 25vh;
-  opacity: 1;
-  position: absolute;
-  
-  animation-name: jiji;
-  animation-duration: 7s; /*開始から終了までの時間*/
-  animation-iteration-count: 1; /*繰り返し*/
-  animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+width: 10vw;
+margin-left: -40vw;
+margin-top: 25vh;
+opacity: 1;
+position: absolute;
+
+animation-name: jiji;
+animation-duration: 7s; /*開始から終了までの時間*/
+animation-iteration-count: 1; /*繰り返し*/
+animation-timing-function: ease; /*加速度  ease:ゆっくり*/
 }
 
 
-    /*2.観音沼のCSS*/
-        .B img.title{
-        width: 30%;
-    }
-    .B .box {
-        display: inline-block;
-        width: 0%;
-    }
-    .B .contents {
-        padding-top: 5vh;
-    }
-    .B img.picture1 {
-        width: 30vw;
-        padding-left: 4vw;
-    }
-    .B img.comment1 {
-        width: 6vw;
-        padding-left: 37vw;
-    }
-    .B .blank {
-        padding-bottom: 5vh;
-    }
-    .B img.comment2 {
-        width: 6vw;
-        padding-left: 3vw;
-    }
-    .B img.picture2 {
-        width: 30vw;
-        padding-left: 15vw;
-    }
-    .B img.comment3 {
-        width: 10vw;
-        padding-top: 3vh;
-    }
-    .B img.view {
-        width: 90%;
-    }
-    
-    /*3.猿楽台地のCSS*/
-    .C img.title{
-        width: 50%;
-    }
-    .C img.comment1 {
-        width: 20vw;
-    }
-    .C img.comment2 {
-        width: 20vw;
-    }
-    .C img.comment3 {
-        width: 20vw;
-    }
-    .C img.view {
-        width: 100%;
-    }
+/*2.観音沼のCSS*/
+    .B img.title{
+    width: 30%;
+}
+.B .box {
+    display: inline-block;
+    width: 0%;
+}
+.B .contents {
+    padding-top: 5vh;
+}
+.B img.picture1 {
+    width: 30vw;
+    padding-left: 4vw;
+}
+.B img.comment1 {
+    width: 6vw;
+    padding-left: 37vw;
+}
+.B .blank {
+    padding-bottom: 5vh;
+}
+.B img.comment2 {
+    width: 6vw;
+    padding-left: 3vw;
+}
+.B img.picture2 {
+    width: 30vw;
+    padding-left: 15vw;
+}
+.B img.comment3 {
+    width: 10vw;
+    padding-top: 3vh;
+}
+.B img.view {
+    width: 90%;
+}
 
-    /*4.塔のへつりのCSS*/
-    .D img.title {
-        width: 30%;
-    }
-    .D .contents {
-        padding-top: 3vh;
-    }
-    .D .box {
-        display: inline-block;
-        width: 20%;
-    }
-    .D img.comment1 {
-        width: 130%;
-        padding-left: 15%;
-    }
-    .D img.comment2 {
-        width: 150%;
-        padding-left: 35%;
-        padding-bottom: 30%;
-    }
-    .D img.comment3 {
-        width: 200%;
-        padding-left: 70%;
-    }
-    .D img.view {
-        width: 90%;
-    }
+/*3.猿楽台地のCSS*/
+.C img.title{
+    width: 50%;
+}
+.C img.comment1 {
+    width: 20vw;
+}
+.C img.comment2 {
+    width: 20vw;
+}
+.C img.comment3 {
+    width: 20vw;
+}
+.C img.view {
+    width: 100%;
+}
 
-    /*5.中山風穴のCSS*/
-    .E img.title{
-        width: 30%;
-    }
-    .E .box {
-        display: inline-block;
-        width: 0%;
-    }
-    .E .contents {
-        padding-top: 5vh;
-    }
-    .E img.comment1 {
-        width: 20%;
-    }
-    .E img.comment2 {
-        width: 25vw;
-        padding-left: 3vw;
-    }
-    .E img.picture1 {
-        width: 15vw;
-        padding-left: 30vw;
-    }
-    .E .blank {
-        padding-bottom: 3vh;
-    }
-    .E img.picture2 {
-        width: 30vw;
-        padding-left: 3vw;
-    }
-    .E img.comment3 {
-        width: 10vw;
-        padding-left: 35vw;
-        padding-bottom: 6vh;
-    }
+/*4.塔のへつりのCSS*/
+.D img.title {
+    width: 30%;
+}
+.D .contents {
+    padding-top: 3vh;
+}
+.D .box {
+    display: inline-block;
+    width: 20%;
+}
+.D img.comment1 {
+    width: 130%;
+    padding-left: 15%;
+}
+.D img.comment2 {
+    width: 150%;
+    padding-left: 35%;
+    padding-bottom: 30%;
+}
+.D img.comment3 {
+    width: 200%;
+    padding-left: 70%;
+}
+.D img.view {
+    width: 90%;
+}
 
-    /*6.へいほう石のCSS*/
-    .F img.title{
-        width: 30%;
-    }
-    .F .box {
-        display: inline-block;
-        width: 20%;
-    }
-    .F .contents {
-        padding-top: 5vh;
-    }
-    .F img.comment1 {
-        width: 35%;
-        padding-left: 30%;
-    }
-    .F img.comment2 {
-        width: 200%;
-        padding-left: 40%;
-    }
-    .F img.picture1 {
-        width: 100%;
-        padding-left: 50%;
-    }
-    .F .blank {
-        padding-bottom: 3vh;
-    }
-    .F img.picture2 {
-        width: 250%;
-        padding-left: 20%;
-    }
-    .F img.comment3 {
-        width: 170%;
-        padding-right: 10%;
-        padding-bottom: 230%;
-    }
-    .F img.comment4 {
-        width: 180%;
-        padding-left: 80%;
-        padding-bottom: 50%;
-    }
-    
-   .F img.picture1 {
-        width: 15vw;
-        padding-left: 30vw;
-    }
-    
-    .F .blank {
-        padding-bottom: 3vh;
-    }
-    .F img.picture2 {
-        width: 20vw;
-        padding-left: 4vw;
-    }
-    .F img.comment3 {
-        width: 15vw;
-        padding-left: 10vw;
-        padding-bottom: 35vh;
-    }
-    .F img.comment4 {
-        width: 15vw;
-        padding-left: 27vw;
-        padding-bottom: 3vh;
-    }
+/*5.中山風穴のCSS*/
+.E img.title{
+    width: 30%;
+}
+.E .box {
+    display: inline-block;
+    width: 0%;
+}
+.E .contents {
+    padding-top: 5vh;
+}
+.E img.comment1 {
+    width: 20%;
+}
+.E img.comment2 {
+    width: 25vw;
+    padding-left: 3vw;
+}
+.E img.picture1 {
+    width: 15vw;
+    padding-left: 30vw;
+}
+.E .blank {
+    padding-bottom: 3vh;
+}
+.E img.picture2 {
+    width: 30vw;
+    padding-left: 3vw;
+}
+.E img.comment3 {
+    width: 10vw;
+    padding-left: 35vw;
+    padding-bottom: 6vh;
+}
 
-    /*7.湯野上温泉のCSS*/
-    .G img.title {
-        width: 30%;
-    }
-    .G .contents {
-        padding-top: 3vh;
-    }
-    .G .box {
-        display: inline-block;
-        width: 20%;
-    }
-    .G img.comment1 {
-        width: 130%;
-        padding-left: 10%;
-    }
-    .G img.comment2 {
-        width: 150%;
-        padding-left: 30%;
-        padding-bottom: 20%;
-    }
-    .G img.comment3 {
-        width: 190%;
-        padding-left: 80%;
-    }
-    .G img.view {
-        padding-top: 5%;
-        width: 70%;
-    }
-    
+/*6.へいほう石のCSS*/
+.F img.title{
+    width: 30%;
+}
+.F .box {
+    display: inline-block;
+    width: 20%;
+}
+.F .contents {
+    padding-top: 5vh;
+}
+.F img.comment1 {
+    width: 35%;
+    padding-left: 30%;
+}
+.F img.comment2 {
+    width: 200%;
+    padding-left: 40%;
+}
+.F img.picture1 {
+    width: 100%;
+    padding-left: 50%;
+}
+.F .blank {
+    padding-bottom: 3vh;
+}
+.F img.picture2 {
+    width: 250%;
+    padding-left: 20%;
+}
+.F img.comment3 {
+    width: 170%;
+    padding-right: 10%;
+    padding-bottom: 230%;
+}
+.F img.comment4 {
+    width: 180%;
+    padding-left: 80%;
+    padding-bottom: 50%;
+}
+.F img.picture1 {
+    width: 15vw;
+    padding-left: 30vw;
+}
+.F .blank {
+    padding-bottom: 3vh;
+}
+.F img.picture2 {
+    width: 20vw;
+    padding-left: 4vw;
+}
+.F img.comment3 {
+    width: 15vw;
+    padding-left: 5vw;
+    padding-bottom: 35vh;
+}
+.F img.comment4 {
+    width: 15vw;
+    padding-left: 10vw;
+    padding-bottom: 3vh;
+}
+
+/*7.湯野上温泉のCSS*/
+.G img.title {
+    width: 30%;
+}
+.G .contents {
+    padding-top: 3vh;
+}
+.G .box {
+    display: inline-block;
+    width: 20%;
+}
+.G img.comment1 {
+    width: 130%;
+    padding-left: 10%;
+}
+.G img.comment2 {
+    width: 150%;
+    padding-left: 30%;
+    padding-bottom: 20%;
+}
+.G img.comment3 {
+    width: 190%;
+    padding-left: 80%;
+}
+.G img.view {
+    padding-top: 5%;
+    width: 70%;
+}
+
 }
