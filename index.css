@@ -285,10 +285,10 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
     padding-left: 40%;
 }
 
-.F img.picture1 {
+/*.F img.picture1 {
     width: 100%;
     padding-left: 50%;
-}
+}*/
 .F .blank {
     padding-bottom: 3vh;
 }
@@ -306,6 +306,28 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
     padding-left: 80%;
     padding-bottom: 50%;
 }
+    
+@keyframes picture1{
+100% {
+  left: 40vw;
+  top: 0vw;
+  transform: perspective(100px) translateZ(40px);
+}
+}
+
+.picture1{
+width:  15vh;
+height: 23vw;
+position: relative;
+left: 60vw;
+top: -70vh;
+
+animation-name: picture1;
+animation-duration: 4s; /*開始から終了までの時間*/
+animation-iteration-count: 1; /*繰り返し*/
+animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+}
+
 
 /*7.湯野上温泉のCSS*/
 .G img.title {
@@ -674,10 +696,10 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
     padding-left: 80%;
     padding-bottom: 50%;
 }
-.F img.picture1 {
+/*.F img.picture1 {
     width: 15vw;
     padding-left: 30vw;
-}
+}*/
 .F .blank {
     padding-bottom: 3vh;
 }
@@ -694,6 +716,27 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
     width: 15vw;
     padding-left: 10vw;
     padding-bottom: 3vh;
+}
+    
+@keyframes picture1{
+  100% {
+    left: 10vw;
+    top: -5vw;
+    transform: perspective(100px) translateZ(40px);
+  }
+}
+
+.picture1{
+ width:  8vh;
+  height: 10vw;
+  position: relative;
+  left: 22vw;
+  top: -70vh;
+
+  animation-name: picture1;
+  animation-duration: 4s; /*開始から終了までの時間*/
+  animation-iteration-count: 1; /*繰り返し*/
+  animation-timing-function: ease; /*加速度  ease:ゆっくり*/
 }
 
 /*7.湯野上温泉のCSS*/
