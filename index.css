@@ -292,7 +292,7 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
 .F .blank {
     padding-bottom: 3vh;
 }
-.F img.picture2 {
+.F img.heihou2 {
     width: 250%;
     padding-left: 20%;
 }
@@ -307,7 +307,7 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
     padding-bottom: 50%;
 }
     
-@keyframes picture1{
+@keyframes heihou1{
 100% {
   left: 40vw;
   top: 0vw;
@@ -315,14 +315,14 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
 }
 }
 
-.picture1{
+.heihou1{
 width:  15vh;
 height: 23vw;
 position: relative;
 left: 60vw;
 top: -70vh;
 
-animation-name: picture1;
+animation-name: heihou1;
 animation-duration: 4s; /*開始から終了までの時間*/
 animation-iteration-count: 1; /*繰り返し*/
 animation-timing-function: ease; /*加速度  ease:ゆっくり*/
@@ -675,14 +675,14 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
     width: 200%;
     padding-left: 40%;
 }
-.F img.picture1 {
+.F img.heihou1 {
     width: 100%;
     padding-left: 50%;
 }
 .F .blank {
     padding-bottom: 3vh;
 }
-.F img.picture2 {
+.F img.heihou2 {
     width: 250%;
     padding-left: 20%;
 }
@@ -699,7 +699,7 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
 .F .blank {
     padding-bottom: 3vh;
 }
-.F img.picture2 {
+.F img.heihou2 {
     width: 20vw;
     padding-left: 4vw;
 }
@@ -714,7 +714,7 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
     padding-bottom: 3vh;
 }
     
-@keyframes picture1{
+@keyframes heihou1{
   100% {
     left: 10vw;
     top: -5vw;
@@ -722,14 +722,14 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
   }
 }
 
-.picture1{
+.heihou1{
  width:  8vh;
   height: 10vw;
   position: relative;
   left: 22vw;
   top: -70vh;
 
-  animation-name: picture1;
+  animation-name: heihou1;
   animation-duration: 4s; /*開始から終了までの時間*/
   animation-iteration-count: 1; /*繰り返し*/
   animation-timing-function: ease; /*加速度  ease:ゆっくり*/
