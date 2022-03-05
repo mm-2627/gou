@@ -34,9 +34,68 @@ footer {
 }
 
 /*0.indexのページ*/
-.icon {
-    width: 80%;
-    height: auto;
+.text {
+    text-align: left;
+}
+.index .box {
+    display: inline-block;
+    width: 0%;
+}
+.index {
+    padding: 0 15vw;
+}
+.icon1-1 {
+    padding-top: 10vh;
+}
+.icon1-2 {
+    padding-left: 15vw;
+    padding-bottom: 7vh;
+}
+.icon2 {
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+    width: 60vw;
+}
+.icon3 {
+    width: 70vw;
+    padding-bottom: 5vh;
+}
+.icon4-1 {
+    width: 50vw;
+    padding-left: 8vw;
+    padding-bottom: 5vh;
+}
+.icon4-2 {
+    width: 70vw;
+    padding-bottom: 5vh;
+}
+.icon5-1 {
+    width: 35vw;
+}
+.icon5-2 {
+    width: 33vw;
+    padding-left: 25vw;
+    padding-bottom: 10vh;
+}
+.index .blank {
+    padding-bottom: 6vh;
+}
+.icon6-1 {
+    width: 60vw;
+    padding-left: 5vw;
+    padding-bottom: 10vh;
+}
+.icon6-2 {
+    width: 70vw;
+}
+.icon7-1 {
+    width: 30vw;
+    padding-left: 17.5vw;
+    padding-bottom: 15vh;
+}
+.icon7-2 {
+    width: 60vw;
+    padding-left: 2.5vw;
 }
 
 /*1.大内宿のCSS*/
@@ -285,10 +344,6 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
     padding-left: 40%;
 }
 
-/*.F img.picture1 {
-    width: 100%;
-    padding-left: 50%;
-}*/
 .F .blank {
     padding-bottom: 3vh;
 }
@@ -391,9 +446,6 @@ footer {
 .left {
     text-align: left;
 }
-.right {
-    text-align: right;
-}
 
 
 /*子ページの共通CSS*/
@@ -406,23 +458,63 @@ footer {
 
 
 /*0.indexのページ*/
-.icon {
-    width: 50%;
-    height: auto;
+.index .box {
+    display: inline-block;
+    width: 0%;
 }
-.icon3 {
-    padding-left: 5%;
+.icon1-1 {
+    width: 25vw;
 }
-.icon7 {
-    padding-left: 5%;
+.icon1-2 {
+    width: 15vw;
+    padding-left: 4vw;
 }
 .icon2 {
-    padding-right: 5%;
-}
-.icon6 {
+    width: 23vw;
     text-align: right;
-    padding-right: 5%;
 }
+.icon3 {
+    width: 50%;
+    padding-left: 5%;
+}
+.icon4-1 {
+    width: 17vw;
+    padding-left: 3vw;
+}
+.icon4-2 {
+    width: 25vw;
+}
+.icon5-1 {
+    width: 20vw;
+    padding-left: 2vw;
+}
+.icon5-2 {
+    width: 15vw;
+    padding-left: 22vw;
+    padding-bottom: 10vh;
+}
+.index .blank {
+    padding-bottom: 6vh;
+}
+.icon6-1 {
+    width: 25vw;
+    text-align: right;
+    padding-bottom: 5vh;
+}
+.icon6-2 {
+    width: 25vw;
+    text-align: right;
+
+}
+.icon7-1 {
+    width: 15vw;
+    padding-left: 5vw;
+    padding-bottom: 4vh;
+}
+.icon7-2 {
+    width: 25vw;
+}
+
 
 /*1.大内宿のCSS*/
 .A img.title {
