@@ -456,26 +456,38 @@ footer {
     text-align: left;
 }
 
+.l {
+    text-align: left;
+}
+.r {
+    text-align: right;
+    width: 20vw;
+}
 
 /*0.indexのページ*/
+.index {
+    padding: 0 1vw;
+}
 .index .box {
     display: inline-block;
     width: 0%;
 }
 .icon1-1 {
     width: 25vw;
+    padding-top: 5vh;
 }
 .icon1-2 {
     width: 15vw;
     padding-left: 4vw;
+    padding-bottom: 5vh;
 }
 .icon2 {
     width: 23vw;
-    text-align: right;
+    padding-left: 3vw;
 }
 .icon3 {
-    width: 50%;
-    padding-left: 5%;
+    width: 25vw;
+    padding-left: 5vw;
 }
 .icon4-1 {
     width: 17vw;
@@ -498,18 +510,17 @@ footer {
 }
 .icon6-1 {
     width: 25vw;
-    text-align: right;
-    padding-bottom: 5vh;
+    padding-left: 2vw;
+    padding-bottom: 7vh;
 }
 .icon6-2 {
     width: 25vw;
-    text-align: right;
-
+    padding-left: 2vw;
 }
 .icon7-1 {
     width: 15vw;
-    padding-left: 5vw;
-    padding-bottom: 4vh;
+    padding-left: 8vw;
+    padding-bottom: 5vh;
 }
 .icon7-2 {
     width: 25vw;
