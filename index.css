@@ -514,6 +514,52 @@ footer {
 .icon7-2 {
     width: 25vw;
 }
+    
+
+/*アニメーション要素のスタイル*/
+    .animation{
+      opacity : 0;
+      visibility: hidden; /*要素を隠す*/
+      transition: 1s;
+    }
+
+    .ani0{
+      transform: translateY(5vh);/*スクロール前の配置位置*/
+    }
+
+    .ani1{
+      transform: translateY(10vh);
+    }
+
+    .ani2{
+      transform: translateY(20vh);
+    }
+
+    .ani3{
+      transform: translateY(30vh);
+    }
+
+    .ani4{
+      transform: translateY(40vh);
+    }
+
+    .ani5{
+      transform: translateY(50vh);
+    }
+
+    .ani6{
+      transform: translateY(60vh);
+    }
+
+
+    /*アニメーション要素までスクロールした時のスタイル*/
+    .active{
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+
 
 
 /*1.大内宿のCSS*/
@@ -632,41 +678,91 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
 
 /*2.観音沼のCSS*/
     .B img.title{
-    width: 30%;
+        width: 30%;
+    }
+    .B .box {
+        display: inline-block;
+        width: 0%;
+    }
+    .B .contents {
+        padding-top: 5vh;
+    }
+    .B img.picture1 {
+        width: 30vw;
+        padding-left: 4vw;
+    }
+    .B img.comment1 {
+        width: 6vw;
+        padding-left: 37vw;
+    }
+    .B .blank {
+        padding-bottom: 5vh;
+    }
+    .B img.comment2 {
+        width: 6vw;
+        padding-left: 3vw;
+    }
+    .B img.picture2 {
+        width: 30vw;
+        padding-left: 15vw;
+    }
+    .B img.comment3 {
+        width: 10vw;
+        padding-top: 3vh;
+    }
+    .B img.ga1{
+      width: 95%;
+    }
+    @keyframes ga2{
+  90%{
+    opacity: 1;
+  }
+
+  100%{
+    top: 170vh;
+    right: 68vw;
+    opacity: 0;
+  }
 }
-.B .box {
-    display: inline-block;
-    width: 0%;
+
+@keyframes ga3{
+  90%{
+  opacity: 1;
+  }
+
+  100%{
+    top: 174.5vh;
+    right: 68vw;
+    opacity: 0;
+  }
 }
-.B .contents {
-    padding-top: 5vh;
+
+.ga2{
+  position: absolute;
+  top: 170vh;
+  right: 25vw;
+  width: 8vw;
+
+  animation-name: ga2;
+  animation-duration: 12s; /*開始から終了までの時間*/
+  animation-iteration-count: 1; /*繰り返し*/
+  animation-timing-function: ease; /*加速度  ease:ゆっくり*/
 }
-.B img.picture1 {
-    width: 30vw;
-    padding-left: 4vw;
+
+.ga3{
+  position: absolute;
+  top: 174.5vh;
+  right: 25vw;
+  width: 9vw;
+  height: 19vh;
+
+  animation-name: ga3;
+  animation-duration: 12s; /*開始から終了までの時間*/
+  animation-iteration-count: 1; /*繰り返し*/
+  animation-timing-function: ease; /*加速度  ease:ゆっくり*/
 }
-.B img.comment1 {
-    width: 6vw;
-    padding-left: 37vw;
-}
-.B .blank {
-    padding-bottom: 5vh;
-}
-.B img.comment2 {
-    width: 6vw;
-    padding-left: 3vw;
-}
-.B img.picture2 {
-    width: 30vw;
-    padding-left: 15vw;
-}
-.B img.comment3 {
-    width: 10vw;
-    padding-top: 3vh;
-}
-.B img.view {
-    width: 90%;
-}
+
+
 
 /*3.猿楽台地のCSS*/
 .C img.title{
