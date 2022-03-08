@@ -533,9 +533,13 @@ footer {
       visibility: hidden; /*要素を隠す*/
       transition: 1s;
     }
+    
+    .ani{
+        transform: translateY(1vh);
+    }
 
     .ani0{
-      transform: translateY(5vh);/*スクロール前の配置位置*/
+      transform: translateY(5vh);
     }
 
     .ani1{
