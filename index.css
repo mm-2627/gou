@@ -90,14 +90,8 @@ footer {
 .icon6-2 {
     width: 70vw;
 }
-.icon7-1 {
-    width: 30vw;
-    padding-left: 17.5vw;
-    padding-bottom: 5vh;
-}
-.icon7-2 {
-    width: 60vw;
-    padding-left: 2.5vw;
+.icon7 {
+    width: 70vw;
 }
 
 /*1.大内宿のCSS*/
@@ -519,13 +513,8 @@ footer {
     width: 25vw;
     padding-left: 2vw;
 }
-.icon7-1 {
-    width: 15vw;
-    padding-left: 8vw;
-    padding-bottom: 5vh;
-}
-.icon7-2 {
-    width: 25vw;
+.icon7 {
+    width: 35vw;
 }
     
 
