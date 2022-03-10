@@ -472,51 +472,169 @@ footer {
     width: 25vw;
     padding-top: 5vh;
 }
+
+.icon1-1:hover{
+   animation: anime11 3s infinite ease;
+}
+
+@keyframes anime11 {
+  0%{padding-left: 0vw;}
+  50%{padding-left: 20vw;}
+  100%{padding-left: 0vw;}
+}
+
 .icon1-2 {
     width: 15vw;
     padding-left: 4vw;
     padding-bottom: 5vh;
 }
+
+.icon1-2:hover{
+   animation: anime12 3s infinite;
+}
+
+@keyframes anime12 {
+
+  20%{padding-left: -20vw;}
+  40%{padding-left: 0vw;}
+  70%{padding-left: 20vw;}
+  100%{padding-left: 4vw;}
+}
+
+
+
+
+
 .icon2 {
     width: 23vw;
     padding-left: 3vw;
 }
+
+.icon2-2{
+  position: absolute;
+  height: 34vh;
+  width: 21vw;
+  margin-left: 4vw;
+  margin-top: -42vh;
+  opacity: 0;
+}
+
+.icon2-2:hover{
+  animation: numa 3s;
+  opacity: 1;
+}
+
+@keyframes numa {
+  100%{
+    opacity: 1;
+  }
+}
+
 .icon3 {
     width: 25vw;
     padding-left: 5vw;
 }
-.icon4-1 {
-    width: 25vw;
-    padding-left: 3vw;
+
+.icon3-2{
+  position: absolute;
+  width: 20vw;
+  margin-top: -32vh;
+  margin-left: 8vw;
+  opacity: 0;
 }
+
+.icon3-2:hover{
+  animation: anime3 5s;
+  opacity: 1;
+}
+
+@keyframes anime3 {
+  100%{
+    opacity: 1;
+  }
+}
+
+
+.icon4-1 {
+    width: 36vw;
+    margin-left: -14.5vw;
+}
+
+.icon4-1:hover{
+  padding-top: -5vh;
+}
+
 .icon4-2 {
     width: 25vw;
 }
+
+
 .icon5-1 {
     width: 20vw;
     padding-left: 2vw;
 }
+
+.icon5-1:hover{
+  animation: anime5 0.5s 1 ease;
+}
+
 .icon5-2 {
     width: 15vw;
     padding-left: 22vw;
     padding-bottom: 10vh;
 }
+
+.icon5-2:hover{
+  animation: anime5 0.4s 1 ease;
+}
+
+@keyframes anime5{
+  100%{
+    padding-left: 33vw;
+  }
+}
+
+
 .index .blank {
     padding-bottom: 6vh;
 }
+
 .icon6-1 {
     width: 25vw;
     padding-left: 2vw;
     padding-bottom: 7vh;
 }
+
+.icon6-1:hover{
+  margin-top: -5vh;
+}
+
 .icon6-2 {
     width: 25vw;
     padding-left: 2vw;
 }
-.icon7 {
-    width: 25vw;
+
+
+
+.icon7-1 {
+    width: 30vw;
+    padding:5vh 0vh;
 }
-    
+
+.icon7:hover{
+  animation: anime7 3s infinite;
+}
+
+@keyframes anime7 {
+  0%{transform: rotate(0);
+  opacity: 0.8;}
+  25%{transform: rotate(2.6deg);
+  opacity: 0.1;}
+  100%{transform: rotate(-4deg);
+  opacity: 0.4;}
+}
+
+
 
 /*アニメーション要素のスタイル*/
     .animation{
