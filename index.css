@@ -93,6 +93,51 @@ footer {
 .icon7 {
     width: 70vw;
 }
+    
+/*アニメーション要素のスタイル*/
+    .animation{
+      opacity : 0;
+      visibility: hidden; /*要素を隠す*/
+      transition: 1s;
+    }
+
+
+    .ani0{
+      transform: translateY(5vh);
+    }
+
+    .ani1{
+      transform: translateY(10vh);
+    }
+
+    .ani2{
+      transform: translateY(20vh);
+    }
+
+    .ani3{
+      transform: translateY(30vh);
+    }
+
+    .ani4{
+      transform: translateY(40vh);
+    }
+
+    .ani5{
+      transform: translateY(50vh);
+    }
+
+    .ani6{
+      transform: translateY(60vh);
+    }
+
+
+    /*アニメーション要素までスクロールした時のスタイル*/
+    .active{
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
 
 /*1.大内宿のCSS*/
 .A img.title {
@@ -124,56 +169,70 @@ footer {
 
 @keyframes jiji{
 20%{
-width: 20vw;
-margin-left: -75vw;
-margin-top: 27vh;
+width: 10vw;
+margin-left: -40vw;
+margin-top: 25vh;
 opacity: 1;
 }
 
 30%{
-width: 15vw;
-margin-left: -72vw;
-margin-top: 10vh;
+width: 9vw;
+margin-left: -45vw;
+margin-top: 8vh;
 opacity: 1;
 }
 
 40%{
-width: 12vw;
-margin-left: -77vw;
-margin-top: 6vh;
+width: 8vw;
+margin-left: -40vw;
+margin-top: 2vh;
 opacity: 1;
 }
 
 50%{
-width: 10vw;
-margin-left: -60vw;
+width: 6vw;
+margin-left: -33vw;
 margin-top: 4vh;
 opacity: 1;
 }
 
 60% {
-width: 7vw;
-margin-left: -57vw;
-margin-top: 6vh;
+width: 4vw;
+margin-left: -30vw;
+margin-top: 7vh;
 opacity: 1;
 }
 
 70%{
+width: 4vw;
+margin-left: -26vw;
+margin-top: 5vh;
+opacity: 1;
+}
+
+73%{
+width: 4vw;
+margin-left: -23vw;
+margin-top: 3vh;
+opacity: 1;
+}
+
+75%{
+width: 4vw;
+margin-left: -20vw;
+margin-top: 1vh;
+opacity: 1;
+}
+
+80%{
  width: 7vw;
  margin-left: -10vw;
  margin-top: 10vh;
 opacity: 1;
 }
 
-90%{
-width: 16vw;
-margin-left: -4vw;
-margin-top: 9vh;
-opacity: 0;
-}
-
 100%{
-width: 16vw;
+width: 7vw;
 margin-left: -3vw;
 margin-top: 9vh;
 opacity: 0;
@@ -181,9 +240,9 @@ opacity: 0;
 }
 
 .oouti .jiji {
-width: 20vw;
-margin-left: -75vw;
-margin-top: 27vh;
+width: 10vw;
+margin-left: -40vw;
+margin-top: 25vh;
 opacity: 1;
 position: absolute;
 
@@ -192,6 +251,8 @@ animation-duration: 7s; /*開始から終了までの時間*/
 animation-iteration-count: 1; /*繰り返し*/
 animation-timing-function: ease; /*加速度  ease:ゆっくり*/
 }
+
+
 
 
 /*2.観音沼のCSS*/
@@ -233,6 +294,7 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
 .B img.view {
     width: 90%;
 }
+    
 
 /*3.猿楽台地のCSS*/
 .C .contents{
