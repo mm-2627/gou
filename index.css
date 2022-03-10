@@ -45,7 +45,7 @@ footer {
     padding: 0 15vw;
 }
 .icon1-1 {
-    padding-top: 5vh;
+    padding-top: 0vh;
     width: 70vw;
 }
 .icon1-2 {
@@ -55,43 +55,109 @@ footer {
 }
 .icon2 {
     padding-left: 5vw;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
     width: 60vw;
+}
+.icon2-2{
+  padding-left: 10vw;
+  padding-bottom: 5vh;
+  margin-top: -75vh;
+  width: 51vw;
 }
 .icon3 {
     width: 70vw;
     padding-bottom: 5vh;
 }
-.icon4-1 {
-    width: 50vw;
-    padding-left: 8vw;
-    padding-bottom: 5vh;
+.icon3-2{
+  position: absolute;
+  width: 55vw;
+  padding-bottom: 5vh;
+  margin-top: -25vh;
+  margin-left: 4vh;
 }
+
+.icon4-1 {
+    width: 52vw;
+    padding-left: 5vw;
+    padding-bottom: 11vh;
+    animation: anime4 0.2s infinite;
+}
+
+@keyframes anime4 {
+  100%{padding-bottom: 9vh;}
+}
+
 .icon4-2 {
     width: 70vw;
     padding-bottom: 5vh;
 }
 .icon5-1 {
-    width: 35vw;
+    width: 40vw;
+    padding-left: 5vw;
 }
 .icon5-2 {
-    width: 33vw;
-    padding-left: 25vw;
+    width: 37vw;
+    padding-left: 33vw;
     padding-bottom: 10vh;
+    animation: anime5 1s infinite;
 }
+
+@keyframes anime5 {
+  100%{padding-left: 40vw;}
+}
+
+
 .index .blank {
     padding-bottom: 6vh;
 }
 .icon6-1 {
     width: 60vw;
     padding-left: 5vw;
-    padding-bottom: 5vh;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    animation: anime6 0.1s infinite;
 }
+
+@keyframes anime6 {
+  100%{padding-left: 8vw;}
+}
+
 .icon6-2 {
+    margin-top: -10vh;
     width: 70vw;
 }
-.icon7 {
-    width: 70vw;
+
+.icon7-1{
+    width: 11vw;
+    padding-top: 3vh;
+    float: left;
+}
+.icon7-2{
+    width: 40vw;
+    position: absolute;
+    padding-left: 4vw;
+    float: left;
+    animation: anime7 3s infinite;
+    opacity: 0.9;
+}
+
+@keyframes anime7 {
+  0%{transform: rotate(0);
+  opacity: 0.8;}
+  25%{transform: rotate(2.8deg);
+  opacity: 0.1;}
+  100%{transform: rotate(-1deg);
+  opacity: 0.4;}
+}
+.icon7-3{
+    width: 10vw;
+    padding-top: 2vh;
+    padding-left: 50vw;
+
+}
+.icon7-4{
+    width: 64vw;
+    margin-left: -5vw;
 }
     
 /*アニメーション要素のスタイル*/
