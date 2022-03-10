@@ -639,8 +639,8 @@ footer {
   position: absolute;
   height: 32vh;
   width: 21vw;
-  margin-left: 5vw;
-  margin-top: -10vh;
+  padding-left: 3vw;
+  margin-top: 3vh;
   opacity: 0;
 }
 
@@ -682,7 +682,7 @@ footer {
 
 .icon4-1 {
     width: 37vw;
-    margin-left: 6vw;
+    margin-left: -3vw;
     margin-bottom: 0vh;
 }
 
