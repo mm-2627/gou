@@ -522,6 +522,7 @@ footer {
     width: 20vw;
 }
 
+
 /*0.indexのページ*/
 .index {
     padding: 0 1vw;
@@ -563,10 +564,6 @@ footer {
   100%{padding-left: 4vw;}
 }
 
-
-
-
-
 .icon2 {
     width: 23vw;
     padding-left: 3vw;
@@ -574,10 +571,10 @@ footer {
 
 .icon2-2{
   position: absolute;
-  height: 34vh;
+  height: 32vh;
   width: 21vw;
-  margin-left: 4vw;
-  margin-top: -42vh;
+  margin-left: -6vw;
+  margin-top: -37vh;
   opacity: 0;
 }
 
@@ -618,12 +615,17 @@ footer {
 
 
 .icon4-1 {
-    width: 36vw;
-    margin-left: -14.5vw;
+    width: 18vw;
+    margin-left: -3vw;
+    margin-bottom: 3vh;
 }
 
 .icon4-1:hover{
-  padding-top: -5vh;
+  animation: anime4 0.1s infinite;
+}
+
+@keyframes anime4 {
+  100%{padding-bottom: 1vh;}
 }
 
 .icon4-2 {
@@ -664,26 +666,38 @@ footer {
 .icon6-1 {
     width: 25vw;
     padding-left: 2vw;
-    padding-bottom: 7vh;
-}
+    padding-bottom: 10vh;
+  }
 
-.icon6-1:hover{
-  margin-top: -5vh;
-}
 
 .icon6-2 {
     width: 25vw;
     padding-left: 2vw;
 }
 
-
-
-.icon7-1 {
-    width: 30vw;
-    padding:5vh 0vh;
+.icon6-1:hover{
+  animation: anime6 0.1s infinite;
 }
 
-.icon7:hover{
+@keyframes anime6 {
+  100%{padding-left: 7vh;}
+}
+
+
+.icon7-1{
+    width: 4.8vw;
+    padding-top: 5.5vh;
+    float: left;
+}
+
+.icon7-2{
+    width: 16vw;
+    position: absolute;
+    padding-left: 1.5vw;
+    padding-top: 3vh;
+}
+
+.icon7-2:hover{
   animation: anime7 3s infinite;
 }
 
@@ -696,6 +710,18 @@ footer {
   opacity: 0.4;}
 }
 
+.icon7-3{
+    width: 4.5vw;
+    padding: 0;
+    margin-top: 5vh;
+    margin-left: 19vw;
+
+}
+.icon7-4{
+    width: 21vw;
+    margin-left: 4.7vw;
+    margin-top: 1vh;
+}
 
 
 /*アニメーション要素のスタイル*/
