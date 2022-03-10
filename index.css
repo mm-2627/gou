@@ -573,8 +573,8 @@ footer {
   position: absolute;
   height: 32vh;
   width: 21vw;
-  margin-left: -6vw;
-  margin-top: -37vh;
+  margin-left: 0vw;
+  margin-top: -30vh;
   opacity: 0;
 }
 
