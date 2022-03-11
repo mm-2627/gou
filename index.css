@@ -1,0 +1,1231 @@
+@media screen and (min-width: 959px) { /*PC*//*min-width: 768px*//*min1025px*/
+
+/*全ページ共通CSS*/
+body {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 221, 208);
+    margin: 0;
+    background-size: cover;
+    background-image: url(img/logo/logo.png);
+    background-size: 23%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main {
+    width: 50%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255,0.4);
+    padding-bottom: 5vh;
+}
+p {
+    margin: 0%;
+}
+footer {
+    padding: 3vh;
+    background-color: rgb(243, 118, 22);
+}
+.left {
+    text-align: left;
+}
+
+
+/*子ページの共通CSS*/
+.title{
+    padding-top: 1vh;
+}
+.txt-aline {
+    text-align: left;
+}
+
+.l {
+    text-align: left;
+}
+.r {
+    text-align: right;
+    width: 20vw;
+}
+
+/*0.indexのページ*/
+.index {
+    padding: 0 1vw;
+}
+.index .box {
+    display: inline-block;
+    width: 0%;
+}
+.icon1-1 {
+    width: 25vw;
+    padding-top: 5vh;
+}
+
+.icon1-1:hover{
+   animation: anime11 3s infinite ease;
+}
+
+@keyframes anime11 {
+  0%{padding-left: 0vw;}
+  50%{padding-left: 20vw;}
+  100%{padding-left: 0vw;}
+}
+
+.icon1-2 {
+    width: 15vw;
+    padding-left: 4vw;
+    padding-bottom: 5vh;
+}
+
+.icon1-2:hover{
+   animation: anime12 3s infinite;
+}
+
+@keyframes anime12 {
+
+  20%{padding-left: -20vw;}
+  40%{padding-left: 0vw;}
+  70%{padding-left: 20vw;}
+  100%{padding-left: 4vw;}
+}
+
+.icon2 {
+    width: 23vw;
+    padding-left: 3vw;
+}
+
+.icon2-2{
+  position: absolute;
+  height: 32vh;
+  width: 21vw;
+  margin-left: -6vw;
+  margin-top: -37vh;
+  opacity: 0;
+}
+
+.icon2-2:hover{
+  animation: numa 3s;
+  opacity: 1;
+}
+
+@keyframes numa {
+  100%{
+    opacity: 1;
+  }
+}
+
+.icon3 {
+    width: 25vw;
+    padding-left: 5vw;
+}
+
+.icon3-2{
+  position: absolute;
+  width: 20vw;
+  margin-top: -32vh;
+  margin-left: 8vw;
+  opacity: 0;
+}
+
+.icon3-2:hover{
+  animation: anime3 5s;
+  opacity: 1;
+}
+
+@keyframes anime3 {
+  100%{
+    opacity: 1;
+  }
+}
+
+
+.icon4-1 {
+    width: 18vw;
+    margin-left: -3vw;
+    margin-bottom: 3vh;
+}
+
+.icon4-1:hover{
+  animation: anime41 0.1s infinite;
+}
+
+@keyframes anime41 {
+  100%{padding-bottom: 1vh;}
+}
+
+.icon4-2 {
+    width: 25vw;
+}
+
+
+.icon5-1 {
+    width: 20vw;
+    padding-left: 2vw;
+}
+
+.icon5-1:hover{
+  animation: anime5 0.5s 1 ease;
+}
+
+.icon5-2 {
+    width: 15vw;
+    padding-left: 22vw;
+    padding-bottom: 10vh;
+}
+
+.icon5-2:hover{
+  animation: anime5 0.4 1 ease;
+}
+@keyframes anime5{
+  100%{padding-left:33vw;}
+}
+
+
+.index .blank {
+    padding-bottom: 6vh;
+}
+
+.icon6-1 {
+    width: 25vw;
+    padding-left: 2vw;
+    padding-bottom: 10vh;
+  }
+
+
+.icon6-2 {
+    width: 25vw;
+    padding-left: 2vw;
+}
+
+.icon6-1:hover{
+  animation: anime6 0.1s infinite;
+}
+
+@keyframes anime6 {
+  100%{padding-left: 7vh;}
+}
+
+
+.icon7-1{
+    width: 4.8vw;
+    padding-top: 5.5vh;
+    float: left;
+}
+
+.icon7-2{
+    width: 16vw;
+    position: absolute;
+    padding-left: 1.5vw;
+    padding-top: 3vh;
+}
+
+.icon7-2:hover{
+  animation: anime7 3s infinite;
+}
+
+@keyframes anime7 {
+  0%{transform: rotate(0);
+  opacity: 0.8;}
+  25%{transform: rotate(2.6deg);
+  opacity: 0.1;}
+  100%{transform: rotate(-4deg);
+  opacity: 0.4;}
+}
+
+.icon7-3{
+    width: 4.5vw;
+    padding: 0;
+    margin-top: 5vh;
+    margin-left: 19vw;
+
+}
+.icon7-4{
+    width: 21vw;
+    margin-left: 4.7vw;
+    margin-top: 1vh;
+}
+
+
+
+/*アニメーション要素のスタイル*/
+    .animation{
+      opacity : 0;
+      visibility: hidden; /*要素を隠す*/
+      transition: 1s;
+    }
+
+    .ani{
+        transform: translateY(1vh);
+    }
+
+    .ani0{
+      transform: translateY(5vh);
+    }
+
+    .ani1{
+      transform: translateY(10vh);
+    }
+
+    .ani2{
+      transform: translateY(20vh);
+    }
+
+    .ani3{
+      transform: translateY(30vh);
+    }
+
+    .ani4{
+      transform: translateY(40vh);
+    }
+
+    .ani5{
+      transform: translateY(50vh);
+    }
+
+    .ani6{
+      transform: translateY(60vh);
+    }
+
+
+    /*アニメーション要素までスクロールした時のスタイル*/
+    .active{
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+
+
+
+/*1.大内宿のCSS*/
+.A img.title {
+    width: 30%;
+}
+.A .contents {
+    padding-top: 3vh;
+}
+.A img.comment1 {
+    width: 30%;
+}
+.A .box {
+    display: inline-block;
+    width: 30%;
+}
+.A img.comment2 {
+    width: 100%;
+    padding-left: 5%;
+}
+.A img.comment3 {
+    width: 120%;
+}
+.A img.comment4 {
+    width: 130%;
+}
+.A img.view {
+    width: 90%;
+}
+
+@keyframes jiji{
+20%{
+width: 10vw;
+margin-left: -40vw;
+margin-top: 25vh;
+opacity: 1;
+}
+
+30%{
+width: 9vw;
+margin-left: -45vw;
+margin-top: 8vh;
+opacity: 1;
+}
+
+40%{
+width: 8vw;
+margin-left: -40vw;
+margin-top: 2vh;
+opacity: 1;
+}
+
+50%{
+width: 6vw;
+margin-left: -33vw;
+margin-top: 4vh;
+opacity: 1;
+}
+
+60% {
+width: 4vw;
+margin-left: -30vw;
+margin-top: 7vh;
+opacity: 1;
+}
+
+70%{
+width: 4vw;
+margin-left: -26vw;
+margin-top: 5vh;
+opacity: 1;
+}
+
+73%{
+width: 4vw;
+margin-left: -23vw;
+margin-top: 3vh;
+opacity: 1;
+}
+
+75%{
+width: 4vw;
+margin-left: -20vw;
+margin-top: 1vh;
+opacity: 1;
+}
+
+80%{
+ width: 7vw;
+ margin-left: -10vw;
+ margin-top: 10vh;
+opacity: 1;
+}
+
+100%{
+width: 7vw;
+margin-left: -3vw;
+margin-top: 9vh;
+opacity: 0;
+}
+}
+
+.oouti .jiji {
+width: 10vw;
+margin-left: -40vw;
+margin-top: 25vh;
+opacity: 1;
+position: absolute;
+
+animation-name: jiji;
+animation-duration: 7s; /*開始から終了までの時間*/
+animation-iteration-count: 1; /*繰り返し*/
+animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+}
+
+
+/*2.観音沼のCSS*/
+    .B img.title{
+        width: 30%;
+    }
+    .B .box {
+        display: inline-block;
+        width: 0%;
+    }
+    .B .contents {
+        padding-top: 5vh;
+    }
+    .B img.picture1 {
+        width: 30vw;
+        padding-left: 4vw;
+    }
+    .B img.comment1 {
+        width: 6vw;
+        padding-left: 37vw;
+    }
+    .B .blank {
+        padding-bottom: 5vh;
+    }
+    .B img.comment2 {
+        width: 6vw;
+        padding-left: 3vw;
+    }
+    .B img.picture2 {
+        width: 30vw;
+        padding-left: 15vw;
+    }
+    .B img.comment3 {
+        width: 10vw;
+        padding-top: 3vh;
+    }
+    .B img.ga1{
+      width: 95%;
+    }
+    @keyframes ga2{
+  90%{
+    opacity: 1;
+  }
+
+  100%{
+    top: 170vh;
+    right: 68vw;
+    opacity: 0;
+  }
+}
+
+@keyframes ga3{
+  90%{
+  opacity: 1;
+  }
+
+  100%{
+    top: 174.5vh;
+    right: 68vw;
+    opacity: 0;
+  }
+}
+
+.ga2{
+  position: absolute;
+  top: 170vh;
+  right: 25vw;
+  width: 8vw;
+
+  animation-name: ga2;
+  animation-duration: 12s; /*開始から終了までの時間*/
+  animation-iteration-count: 1; /*繰り返し*/
+  animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+}
+
+.ga3{
+  position: absolute;
+  top: 174.5vh;
+  right: 25vw;
+  width: 9vw;
+  height: 19vh;
+
+  animation-name: ga3;
+  animation-duration: 12s; /*開始から終了までの時間*/
+  animation-iteration-count: 1; /*繰り返し*/
+  animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+}
+
+
+
+/*3.猿楽台地のCSS*/
+.C img.title{
+    width: 50%;
+}
+.C img.comment1 {
+    width: 20vw;
+}
+.C img.comment2 {
+    width: 20vw;
+}
+.C img.comment3 {
+    width: 20vw;
+}
+.C img.view {
+    width: 100%;
+}
+
+/*4.塔のへつりのCSS*/
+.D img.title {
+    width: 30%;
+}
+.D .contents {
+    padding-top: 3vh;
+}
+.D .box {
+    display: inline-block;
+    width: 20%;
+}
+.D img.comment1 {
+    width: 130%;
+    padding-left: 15%;
+}
+.D img.comment2 {
+    width: 150%;
+    padding-left: 35%;
+    padding-bottom: 30%;
+}
+.D img.comment3 {
+    width: 200%;
+    padding-left: 70%;
+}
+.D img.view {
+    width: 90%;
+}
+
+/*5.中山風穴のCSS*/
+.E img.title{
+    width: 30%;
+}
+.E .box {
+    display: inline-block;
+    width: 0%;
+}
+.E .contents {
+    padding-top: 5vh;
+}
+.E img.comment1 {
+    width: 20%;
+}
+.E img.comment2 {
+    width: 25vw;
+    padding-left: 3vw;
+}
+.E img.picture1 {
+    width: 15vw;
+    padding-left: 30vw;
+}
+.E .blank {
+    padding-bottom: 3vh;
+}
+.E img.picture2 {
+    width: 30vw;
+    padding-left: 3vw;
+}
+.E img.comment3 {
+    width: 10vw;
+    padding-left: 35vw;
+    padding-bottom: 6vh;
+}
+
+/*6.へいほう石のCSS*/
+.F img.title{
+    width: 30%;
+}
+.F .box {
+    display: inline-block;
+    width: 20%;
+}
+.F .contents {
+    padding-top: 5vh;
+}
+.F img.comment1 {
+    width: 35%;
+    padding-left: 30%;
+}
+.F img.comment2 {
+    width: 200%;
+    padding-left: 40%;
+}
+.F img.heihou1 {
+    width: 100%;
+    padding-left: 50%;
+}
+.F .blank {
+    padding-bottom: 3vh;
+}
+.F img.heihou2 {
+    width: 250%;
+    padding-left: 20%;
+}
+.F img.comment3 {
+    width: 170%;
+    padding-right: 10%;
+    padding-bottom: 230%;
+}
+.F img.comment4 {
+    width: 180%;
+    padding-left: 80%;
+    padding-bottom: 50%;
+}
+.F .blank {
+    padding-bottom: 3vh;
+}
+.F img.heihou2 {
+    width: 20vw;
+    padding-left: 4vw;
+}
+.F img.comment3 {
+    width: 15vw;
+    padding-left: 5vw;
+    padding-bottom: 35vh;
+}
+.F img.comment4 {
+    width: 15vw;
+    padding-left: 10vw;
+    padding-bottom: 3vh;
+}
+
+@keyframes heihou1{
+  100% {
+    left: 10vw;
+    top: -5vw;
+    transform: perspective(100px) translateZ(40px);
+  }
+}
+
+.heihou1{
+ width:  8vh;
+  height: 10vw;
+  position: relative;
+  left: 22vw;
+  top: -70vh;
+
+  animation-name: heihou1;
+  animation-duration: 4s; /*開始から終了までの時間*/
+  animation-iteration-count: 1; /*繰り返し*/
+  animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+}
+
+/*7.湯野上温泉のCSS*/
+.G img.title {
+    width: 30%;
+}
+.G .contents {
+    padding-top: 3vh;
+}
+.G .box {
+    display: inline-block;
+    width: 20%;
+}
+.G img.comment1 {
+    width: 130%;
+    padding-left: 10%;
+}
+.G img.comment2 {
+    width: 150%;
+    padding-left: 30%;
+    padding-bottom: 20%;
+}
+.G img.comment3 {
+    width: 190%;
+    padding-left: 80%;
+}
+.G img.view {
+    padding-top: 5%;
+    width: 70%;
+}
+
+}
+
+
+@media screen and (max-width: 959px) { /*スマホ*/ /*min-width: 0px*/
+
+    /*全ページ共通CSS*/
+body {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 221, 208);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255,0.4);
+    padding-top: 1vh;
+    padding-bottom: 5vh;
+}
+p {
+    margin: 0%;
+}
+footer {
+    padding: 3vh;
+    background-color: rgb(243, 118, 22);
+}
+
+/*子ページの共通CSS*/
+.title{
+    padding-top: 1vh;
+}
+.txt-aline {
+    text-align: left;
+}
+
+/*0.indexのページ*/
+.text {
+    text-align: left;
+}
+.index .box {
+    display: inline-block;
+    width: 0%;
+}
+.index {
+    padding: 0 15vw;
+}
+.icon1-1 {
+    padding-top: 0vh;
+    width: 70vw;
+}
+.icon1-2 {
+    padding-left: 14vw;
+    padding-bottom: 5vh;
+    width: 35vw;
+}
+.icon2 {
+    padding-left: 5vw;
+    padding-bottom: 0vh;
+    width: 60vw;
+}
+.icon2-2{
+  padding-left: 10vw;
+  padding-bottom: 5vh;
+  margin-top: -75vh;
+  width: 51vw;
+}
+.icon3 {
+    width: 70vw;
+    padding-bottom: 5vh;
+}
+.icon3-2{
+  position: absolute;
+  width: 55vw;
+  padding-bottom: 5vh;
+  margin-top: -25vh;
+  margin-left: 4vh;
+}
+
+.icon4-1 {
+    width: 52vw;
+    padding-left: 5vw;
+    padding-bottom: 11vh;
+    animation: anime4 0.2s infinite;
+}
+
+@keyframes anime4 {
+  100%{padding-bottom: 9vh;}
+}
+
+.icon4-2 {
+    width: 70vw;
+    padding-bottom: 5vh;
+}
+.icon5-1 {
+    width: 40vw;
+    padding-left: 5vw;
+}
+.icon5-2 {
+    width: 37vw;
+    padding-left: 33vw;
+    padding-bottom: 10vh;
+    animation: anime5 1s infinite;
+}
+
+@keyframes anime5 {
+  100%{padding-left: 40vw;}
+}
+
+
+.index .blank {
+    padding-bottom: 6vh;
+}
+.icon6-1 {
+    width: 60vw;
+    padding-left: 5vw;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    animation: anime6 0.1s infinite;
+}
+
+@keyframes anime6 {
+  100%{padding-left: 8vw;}
+}
+
+.icon6-2 {
+    margin-top: -10vh;
+    width: 70vw;
+}
+
+.icon7-1{
+    width: 11vw;
+    padding-top: 3vh;
+    float: left;
+}
+.icon7-2{
+    width: 40vw;
+    position: absolute;
+    padding-left: 4vw;
+    float: left;
+    animation: anime7 3s infinite;
+    opacity: 0.9;
+}
+
+@keyframes anime7 {
+  0%{transform: rotate(0);
+  opacity: 0.8;}
+  25%{transform: rotate(2.8deg);
+  opacity: 0.1;}
+  100%{transform: rotate(-1deg);
+  opacity: 0.4;}
+}
+.icon7-3{
+    width: 10vw;
+    padding-top: 2vh;
+    padding-left: 50vw;
+
+}
+.icon7-4{
+    width: 64vw;
+    margin-left: -5vw;
+}
+
+/*アニメーション要素のスタイル*/
+    .animation{
+      opacity : 0;
+      visibility: hidden; /*要素を隠す*/
+      transition: 1s;
+    }
+
+
+    .move0{
+      transform: translateY(0vh);
+    }
+
+    .move1{
+      transform: translateY(0vh);
+    }
+
+    .move2{
+      transform: translateY(20vh);
+    }
+
+    .move3{
+      transform: translateY(30vh);
+    }
+
+    .move4{
+      transform: translateY(40vh);
+    }
+
+    .move5{
+      transform: translateY(50vh);
+    }
+
+    .move6{
+      transform: translateY(60vh);
+    }
+
+
+    /*アニメーション要素までスクロールした時のスタイル*/
+    .active{
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+
+/*1.大内宿のCSS*/
+.A img.title {
+    width: 30%;
+}
+.A .contents {
+    padding-top: 3vh;
+}
+.A img.comment1 {
+    width: 30%;
+}
+.A .box {
+    display: inline-block;
+    width: 30%;
+}
+.A img.comment2 {
+    width: 100%;
+    padding-left: 5%;
+}
+.A img.comment3 {
+    width: 120%;
+}
+.A img.comment4 {
+    width: 120%;
+}
+.A img.view {
+    width: 90%;
+}
+
+@keyframes jiji{
+20%{
+width: 10vw;
+margin-left: -40vw;
+margin-top: 25vh;
+opacity: 1;
+}
+
+30%{
+width: 9vw;
+margin-left: -45vw;
+margin-top: 8vh;
+opacity: 1;
+}
+
+40%{
+width: 8vw;
+margin-left: -40vw;
+margin-top: 2vh;
+opacity: 1;
+}
+
+50%{
+width: 6vw;
+margin-left: -33vw;
+margin-top: 4vh;
+opacity: 1;
+}
+
+60% {
+width: 4vw;
+margin-left: -30vw;
+margin-top: 7vh;
+opacity: 1;
+}
+
+70%{
+width: 4vw;
+margin-left: -26vw;
+margin-top: 5vh;
+opacity: 1;
+}
+
+73%{
+width: 4vw;
+margin-left: -23vw;
+margin-top: 3vh;
+opacity: 1;
+}
+
+75%{
+width: 4vw;
+margin-left: -20vw;
+margin-top: 1vh;
+opacity: 1;
+}
+
+80%{
+ width: 7vw;
+ margin-left: -10vw;
+ margin-top: 10vh;
+opacity: 1;
+}
+
+100%{
+width: 7vw;
+margin-left: -3vw;
+margin-top: 9vh;
+opacity: 0;
+}
+}
+
+.oouti .jiji {
+width: 10vw;
+margin-left: -40vw;
+margin-top: 25vh;
+opacity: 1;
+position: absolute;
+
+animation-name: jiji;
+animation-duration: 7s; /*開始から終了までの時間*/
+animation-iteration-count: 1; /*繰り返し*/
+animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+}
+
+
+
+
+/*2.観音沼のCSS*/
+.B img.title{
+    width: 30%;
+}
+.B .box {
+    display: inline-block;
+    width: 0%;
+}
+.B .contents {
+    padding-top: 5vh;
+}
+.B img.picture1 {
+    width: 60vw;
+    padding-left: 10vw;
+}
+.B img.comment1 {
+    width: 10vw;
+    padding-left: 75vw;
+    padding-bottom: 5vh;
+}
+.B .blank {
+    padding-bottom: 5vh;
+}
+.B img.comment2 {
+    width: 10vw;
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+}
+.B img.picture2 {
+    width: 60vw;
+    padding-left: 25vw;
+}
+.B img.comment3 {
+    width: 20%;
+    padding-top: 3vh;
+}
+.B img.view {
+    width: 90%;
+}
+
+
+/*3.猿楽台地のCSS*/
+.C .contents{
+    text-align: left;
+}
+.C img.title{
+    width: 50%;
+}
+.C img.comment1 {
+    width: 30vw;
+    padding-left: 60%;
+}
+.C img.comment2 {
+    width: 30vw;
+    padding-left: 10%;
+}
+.C img.comment3 {
+    width: 30vw;
+    padding-left: 30%;
+}
+.C img.view {
+    width: 100%;
+}
+
+/*4.塔のへつりのCSS*/
+.D img.title {
+    width: 30%;
+}
+.D .contents {
+    padding-top: 3vh;
+}
+.D .box {
+    display: inline-block;
+    width: 20%;
+}
+.D img.comment1 {
+    width: 130%;
+    padding-left: 15%;
+}
+.D img.comment2 {
+    width: 150%;
+    padding-left: 35%;
+    padding-bottom: 30%;
+}
+.D img.comment3 {
+    width: 200%;
+    padding-left: 70%;
+}
+.D img.view {
+    width: 90%;
+}
+
+/*5.中山風穴のCSS*/
+.E img.title{
+    width: 30%;
+}
+.E .box {
+    display: inline-block;
+    width: 0%;
+}
+.E .contents {
+    padding-top: 5vh;
+}
+.E img.comment1 {
+    width: 20%;
+}
+.E img.comment2 {
+    width: 50vw;
+    padding-left: 3vw;
+}
+.E img.picture1 {
+    width: 30vw;
+    padding-left: 60vw;
+}
+.E .blank {
+    padding-bottom: 3vh;
+}
+.E img.picture2 {
+    width: 60vw;
+    padding-left: 3vw;
+}
+.E img.comment3 {
+    width: 20vw;
+    padding-left: 70vw;
+    padding-bottom: 6vh;
+}
+
+/*6.へいほう石のCSS*/
+.F img.title{
+    width: 30%;
+}
+.F .box {
+    display: inline-block;
+    width: 20%;
+}
+.F .contents {
+    padding-top: 5vh;
+}
+.F img.comment1 {
+    width: 35%;
+    padding-left: 30%;
+}
+.F img.comment2 {
+    width: 200%;
+    padding-left: 40%;
+}
+
+.F .blank {
+    padding-bottom: 3vh;
+}
+.F img.heihou2 {
+    width: 250%;
+    padding-left: 20%;
+}
+.F img.comment3 {
+    width: 170%;
+    padding-right: 10%;
+    padding-bottom: 230%;
+}
+.F img.comment4 {
+    width: 180%;
+    padding-left: 80%;
+    padding-bottom: 50%;
+}
+
+@keyframes heihou1{
+100% {
+  left: 40vw;
+  top: 0vw;
+  transform: perspective(100px) translateZ(40px);
+}
+}
+
+.heihou1{
+width:  15vh;
+height: 23vw;
+position: relative;
+left: 60vw;
+top: -70vh;
+
+animation-name: heihou1;
+animation-duration: 4s; /*開始から終了までの時間*/
+animation-iteration-count: 1; /*繰り返し*/
+animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+}
+
+
+/*7.湯野上温泉のCSS*/
+.G img.title {
+    width: 30%;
+}
+.G .contents {
+    padding-top: 3vh;
+}
+.G .box {
+    display: inline-block;
+    width: 20%;
+}
+.G img.comment1 {
+    width: 130%;
+    padding-left: 10%;
+}
+.G img.comment2 {
+    width: 150%;
+    padding-left: 30%;
+    padding-bottom: 20%;
+}
+.G img.comment3 {
+    width: 190%;
+    padding-left: 80%;
+}
+.G img.view {
+    width: 70%;
+    padding-top: 5%;
+}
+
+}
