@@ -477,10 +477,11 @@ opacity: 0;}
     width: 20vw;
 }
 .C img.comment3 {
-    width: 20vw;
+    width: 30vw;
 }
 .C img.view {
     width: 100%;
+    margin-left: -13.6vw;
 }
 
 /*4.塔のへつりのCSS*/
@@ -1079,19 +1080,23 @@ opacity: 0;}
     width: 50%;
 }
 .C img.comment1 {
-    width: 30vw;
-    padding-left: 60%;
+    width: 40vw;
+    padding-left: 50%;
+    padding-top: 5%;
 }
 .C img.comment2 {
-    width: 30vw;
-    padding-left: 10%;
+    width: 50vw;
+    padding-left: 5%;
 }
 .C img.comment3 {
-    width: 30vw;
-    padding-left: 30%;
+    width: 60vw;
+    padding-left: 20%;
+    padding-top: 5%;
 }
 .C img.view {
     width: 100%;
+    padding-top: 10%;
+    margin-left: -14vw;
 }
 
 /*4.塔のへつりのCSS*/
