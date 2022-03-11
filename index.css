@@ -1083,8 +1083,55 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
     width: 20%;
     padding-top: 3vh;
 }
-.B img.view {
-    width: 90%;
+.B img.ga1{
+  width: 95%;
+}
+
+.ga2{
+position: absolute;
+padding-top: 20vh;
+right: 0vw;
+width: 17vw;
+
+animation-name: ga2;
+animation-duration: 12s; /*開始から終了までの時間*/
+animation-iteration-count: 1; /*繰り返し*/
+animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+}
+
+.ga3{
+position: absolute;
+padding-top: 23vh;
+right: 0vw;
+width: 20vw;
+height: 10vh;
+
+animation-name: ga3;
+animation-duration: 12s; /*開始から終了までの時間*/
+animation-iteration-count: 1; /*繰り返し*/
+animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+}
+
+@keyframes ga2{
+90%{
+opacity: 1;
+}
+
+100%{
+right: 100vw;
+opacity: 0;
+}
+}
+
+@keyframes ga3{
+90%{
+opacity: 1;
+}
+
+100%{
+right: 100vw;
+opacity: 0;
+}
 }
 
 
