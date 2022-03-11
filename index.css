@@ -1288,23 +1288,23 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
 }
 
 @keyframes baba {
-  0%{margin-top: 14.5vh;
+  0%{margin-top: 14.8vh;
   margin-left: -43vw;}
-  7%{margin-top: 14.5vh;
+  7%{margin-top: 14.8vh;
   margin-left: -48vw;}
-  14%{margin-top: 14.5vh;
+  14%{margin-top: 14.8vh;
   margin-left: -43vw;}
-  21%{margin-top: 14.5vh;
+  21%{margin-top: 14.8vh;
   margin-left: -48vw;}
-  28%{margin-top: 14.5vh;
+  28%{margin-top: 14.8vh;
   margin-left: -43vw;}
-  35%{margin-top: 13.5vh;
+  35%{margin-top: 13.2vh;
   margin-left: -43vw;}
-  50%{margin-top: 14.5vh;
+  50%{margin-top: 14.8vh;
   margin-left: -43vw;}
-  55%{margin-top: 13vh;
+  55%{margin-top: 14vh;
   margin-left: -42vw;}
-  80%{margin-top: 14vh;
+  80%{margin-top: 13vh;
   margin-left: -41vw;}
   100%{margin-top: 18vh;
   margin-left: -41vw;}
