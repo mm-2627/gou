@@ -708,10 +708,10 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
   margin-left: -25vw}
   55%{margin-top: 25.5vh;
   margin-left: -25vw;}
-  80%{margin-top: 18vh;
-  margin-left: -22vw}
+  80%{margin-top: 19vh;
+  margin-left: -23vw}
   100%{margin-top: 30vh;
-  margin-left: -22vw;
+  margin-left: -23vw;
   }
 }
 .G img.view3{
