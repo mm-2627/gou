@@ -444,35 +444,12 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
     .B img.ga1{
       width: 95%;
     }
-    @keyframes ga2{
-  90%{
-    opacity: 1;
-  }
-
-  100%{
-    top: 170vh;
-    right: 68vw;
-    opacity: 0;
-  }
-}
-
-@keyframes ga3{
-  90%{
-  opacity: 1;
-  }
-
-  100%{
-    top: 174.5vh;
-    right: 68vw;
-    opacity: 0;
-  }
-}
-
+   
 .ga2{
   position: absolute;
   top: 170vh;
   right: 25vw;
-  width: 8vw;
+  width: 15vw;
 
   animation-name: ga2;
   animation-duration: 12s; /*開始から終了までの時間*/
@@ -480,17 +457,11 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
   animation-timing-function: ease; /*加速度  ease:ゆっくり*/
 }
 
-.ga3{
-  position: absolute;
-  top: 174.5vh;
-  right: 25vw;
-  width: 9vw;
-  height: 19vh;
-
-  animation-name: ga3;
-  animation-duration: 12s; /*開始から終了までの時間*/
-  animation-iteration-count: 1; /*繰り返し*/
-  animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+@keyframes ga2{
+90%{opacity: 1;}
+100%{top: 170vh;
+right: 64vw;
+opacity: 0;}
 }
 
 
@@ -1091,7 +1062,7 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
 position: absolute;
 padding-top: 20vh;
 right: 0vw;
-width: 17vw;
+width: 30vw;
 
 animation-name: ga2;
 animation-duration: 12s; /*開始から終了までの時間*/
@@ -1099,39 +1070,11 @@ animation-iteration-count: 1; /*繰り返し*/
 animation-timing-function: ease; /*加速度  ease:ゆっくり*/
 }
 
-.ga3{
-position: absolute;
-padding-top: 23vh;
-right: 0vw;
-width: 20vw;
-height: 10vh;
-
-animation-name: ga3;
-animation-duration: 12s; /*開始から終了までの時間*/
-animation-iteration-count: 1; /*繰り返し*/
-animation-timing-function: ease; /*加速度  ease:ゆっくり*/
-}
 
 @keyframes ga2{
-90%{
-opacity: 1;
-}
-
-100%{
-right: 100vw;
-opacity: 0;
-}
-}
-
-@keyframes ga3{
-90%{
-opacity: 1;
-}
-
-100%{
-right: 100vw;
-opacity: 0;
-}
+90%{opacity: 1;}
+100%{right: 100vw;
+opacity: 0;}
 }
 
 
