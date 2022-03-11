@@ -1148,20 +1148,20 @@ opacity: 0;}
     transform: scale(-1, 1);
     width: 13%;
     margin-left: -90vw;
-    margin-top: 15vh;
+    margin-top: 16vh;
     animation: anim4 3s infinite;
 }
 @keyframes anim4 {
   0%{margin-left: -90vw;
-  margin-top: 15vh;}
+  margin-top: 16vh;}
   25%{margin-left: -50vw;
-  margin-top: 8vh;}
+  margin-top: 9vh;}
   35%{margin-left: -90vw;
-  margin-top: 15vh;}
+  margin-top: 16vh;}
   70%{margin-left: -50vw;
-  margin-top: 8vh;}
+  margin-top: 9vh;}
   100%{margin-left: -90vw;
-  margin-top: 15vh;}
+  margin-top: 16vh;}
 }
 
 /*5.中山風穴のCSS*/
