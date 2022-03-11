@@ -1237,25 +1237,19 @@ opacity: 0;}
     padding-bottom: 50%;
 }
 
+.heihou1{
+height:  11vh;
+position: relative;
+left: 58vw;
+top: -30vh;
+animation: heihou1 4s;
+}
 @keyframes heihou1{
 100% {
   left: 40vw;
-  top: 0vw;
-  transform: perspective(100px) translateZ(40px);
+  top: -8vw;
+  transform: perspective(100px) translateZ(30px);
 }
-}
-
-.heihou1{
-width:  15vh;
-height: 23vw;
-position: relative;
-left: 60vw;
-top: -70vh;
-
-animation-name: heihou1;
-animation-duration: 4s; /*開始から終了までの時間*/
-animation-iteration-count: 1; /*繰り返し*/
-animation-timing-function: ease; /*加速度  ease:ゆっくり*/
 }
 
 
