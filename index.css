@@ -1149,10 +1149,19 @@ opacity: 0;}
     width: 13%;
     margin-left: -90vw;
     margin-top: 15vh;
+    animation: anim4 3s infinite;
 }
-.D img.view2:active{
-  margin-left: -50vw;
-  margin-top: 8vh;
+@keyframes anim4 {
+  0%{margin-left: -90vw;
+  margin-top: 15vh;}
+  25%{margin-left: -50vw;
+  margin-top: 8vh;}
+  35%{margin-left: -90vw;
+  margin-top: 15vh;}
+  70%{margin-left: -50vw;
+  margin-top: 8vh;}
+  100%{margin-left: -90vw;
+  margin-top: 15vh;}
 }
 
 /*5.中山風穴のCSS*/
