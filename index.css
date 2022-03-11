@@ -139,8 +139,8 @@ footer {
 
 
 .icon4-1 {
-    width: 33vw;
-    margin-left: -4vw;
+    width: 34vw;
+    margin-left: -1vw;
     margin-bottom: 3vh;
 }
 
@@ -162,23 +162,19 @@ footer {
     padding-left: 2vw;
 }
 
-.icon5-1:hover{
-  animation: anime5 0.5s 1 ease;
-}
-
 .icon5-2 {
     width: 15vw;
-    padding-left: 22vw;
+    padding-left: 20vw;
     padding-bottom: 10vh;
 }
 
 .icon5-2:hover{
-  animation: anime5 0.4 1 ease;
+  animation: anime5 1s infinite ease;
 }
 @keyframes anime5{
-  100%{padding-left:33vw;}
+  100%{margin-left: 12vw;
+  }
 }
-
 
 .index .blank {
     padding-bottom: 6vh;
