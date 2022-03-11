@@ -54,12 +54,12 @@ footer {
     width: 35vw;
 }
 .icon2 {
-    postion: absolute;
     padding-left: 5vw;
     padding-bottom: 0vh;
     width: 60vw;
 }
 .icon2-2{
+  postion: absolute;
   padding-left: 10vw;
   padding-bottom: 5vh;
   margin-top: -75vh;
@@ -78,8 +78,8 @@ footer {
 }
 
 .icon4-1 {
-    width: 80vw;
-    padding-left: 5vw;
+    width: 100vw;
+    padding-left: 0vw;
     padding-bottom: 11vh;
     animation: anime4 0.2s infinite;
 }
