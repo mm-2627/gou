@@ -89,16 +89,17 @@ footer {
 }
 
 .icon2 {
+    position: absolute;
     width: 23vw;
     padding-left: 3vw;
 }
 
 .icon2-2{
-  position: absolute;
+  
   height: 32vh;
   width: 21vw;
   margin-left: 4vw;
-  margin-top: 20vh;
+  margin-top: 15vh;
   opacity: 0;
 }
 
