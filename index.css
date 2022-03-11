@@ -1083,18 +1083,19 @@ opacity: 0;}
     width: 50%;
 }
 .C img.comment1 {
-    width: 40vw;
-    padding-left: 50%;
-    padding-top: 5%;
+    width: 50vw;
+    padding-left: 45%;
+    padding-top: 7%;
 }
 .C img.comment2 {
-    width: 50vw;
+    width: 70vw;
     padding-left: 5%;
+    padding-top: 10%;
 }
 .C img.comment3 {
-    width: 60vw;
-    padding-left: 20%;
-    padding-top: 5%;
+    width: 80vw;
+    padding-left: 10%;
+    padding-top: 10%;
 }
 .C img.view {
     width: 100%;
