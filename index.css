@@ -97,7 +97,7 @@ footer {
   position: absolute;
   height: 32vh;
   width: 21vw;
-  margin-left: -6vw;
+  margin-left: 4vw;
   margin-top: -37vh;
   opacity: 0;
 }
@@ -121,7 +121,7 @@ footer {
 .icon3-2{
   position: absolute;
   width: 20vw;
-  margin-top: -32vh;
+  margin-top: -28vh;
   margin-left: 8vw;
   opacity: 0;
 }
@@ -139,8 +139,8 @@ footer {
 
 
 .icon4-1 {
-    width: 18vw;
-    margin-left: -3vw;
+    width: 30vw;
+    margin-left: 0vw;
     margin-bottom: 3vh;
 }
 
