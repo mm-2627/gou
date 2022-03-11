@@ -472,9 +472,11 @@ opacity: 0;}
 }
 .C img.comment1 {
     width: 20vw;
+    padding-left: 40%;
 }
 .C img.comment2 {
     width: 20vw;
+    padding-left: 10%;
 }
 .C img.comment3 {
     width: 30vw;
@@ -482,6 +484,7 @@ opacity: 0;}
 .C img.view {
     width: 100%;
     margin-left: -13.6vw;
+    padding-top: 10%;
 }
 
 /*4.塔のへつりのCSS*/
