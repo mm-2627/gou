@@ -620,25 +620,20 @@ opacity: 0;}
     padding-bottom: 3vh;
 }
 
-@keyframes heihou1{
-  100% {
-    left: 10vw;
-    top: -5vw;
-    transform: perspective(100px) translateZ(40px);
-  }
-}
-
 .heihou1{
- width:  8vh;
   height: 10vw;
   position: relative;
   left: 22vw;
   top: -70vh;
+  animation: heihou1 4s 1 ease;
+}
 
-  animation-name: heihou1;
-  animation-duration: 4s; /*開始から終了までの時間*/
-  animation-iteration-count: 1; /*繰り返し*/
-  animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+@keyframes heihou1{
+  100% {
+    left: 15vw;
+    top: -2vw;
+    transform: perspective(100px) translateZ(30px);
+  }
 }
 
 /*7.湯野上温泉のCSS*/
