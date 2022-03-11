@@ -1258,9 +1258,46 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
     width: 190%;
     padding-left: 80%;
 }
-.G img.view {
-    width: 70%;
+.G img.view1{
     padding-top: 5%;
+    padding-bottom: 0;
+    width: 80%;
+}
+.G img.view2{
+  position: absolute;
+  width: 10%;
+  margin-top: 13.7vh;
+  margin-left: -43vw;
+  animation: baba 7s ease;
 }
 
+@keyframes baba {
+  0%{margin-top: 13.7vh;
+  margin-left: -43vw;}
+  7%{margin-top: 13.7vh;
+  margin-left: -48vw;}
+  14%{margin-top: 13.7vh;
+  margin-left: -43vw;}
+  21%{margin-top: 13.7vh;
+  margin-left: -48vw;}
+  28%{margin-top: 13.7vh;
+  margin-left: -43vw;}
+  35%{margin-top: 12vh;
+  margin-left: -43vw;}
+  50%{margin-top: 13.7vh;
+  margin-left: -43vw;}
+  55%{margin-top: 11vh;
+  margin-left: -42vw;}
+  80%{margin-top: 12vh;
+  margin-left: -41vw;}
+  100%{margin-top: 18vh;
+  margin-left: -41vw;}
+}
+.G img.view3{
+    position: absolute;
+    margin-left: -80vw;
+    margin-top: 33%;
+    width: 80%;
+}
+    
 }
