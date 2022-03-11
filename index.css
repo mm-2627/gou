@@ -880,32 +880,35 @@ footer {
       transition: 1s;
     }
 
-
-    .move0{
-      transform: translateY(0vh);
+    .ani{
+        transform: translateY(1vh);
     }
 
-    .move1{
-      transform: translateY(0vh);
+    .ani0{
+      transform: translateY(5vh);
     }
 
-    .move2{
+    .ani1{
+      transform: translateY(10vh);
+    }
+
+    .ani2{
       transform: translateY(20vh);
     }
 
-    .move3{
+    .ani3{
       transform: translateY(30vh);
     }
 
-    .move4{
+    .ani4{
       transform: translateY(40vh);
     }
 
-    .move5{
+    .ani5{
       transform: translateY(50vh);
     }
 
-    .move6{
+    .ani6{
       transform: translateY(60vh);
     }
 
