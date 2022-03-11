@@ -511,9 +511,21 @@ opacity: 0;}
     width: 200%;
     padding-left: 70%;
 }
-.D img.view {
+.D img.view1 {
     width: 90%;
 }
+.D img.view2 {
+    position: absolute;
+    transform: scale(-1, 1);
+    width: 6%;
+    margin-left: -45vw;
+    margin-top: 30vh;
+}
+.D img.view2:active{
+  margin-left: -25vw;
+  margin-top: 17vh;
+}
+
 
 /*5.中山風穴のCSS*/
 .E img.title{
@@ -1127,8 +1139,20 @@ opacity: 0;}
     width: 200%;
     padding-left: 70%;
 }
-.D img.view {
+
+.D img.view1 {
     width: 90%;
+}
+.D img.view2 {
+    position: absolute;
+    transform: scale(-1, 1);
+    width: 13%;
+    margin-left: -90vw;
+    margin-top: 15vh;
+}
+.D img.view2:active{
+  margin-left: -50vw;
+  margin-top: 8vh;
 }
 
 /*5.中山風穴のCSS*/
