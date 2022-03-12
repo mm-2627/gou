@@ -1426,19 +1426,19 @@ animation: heihou1 6s;
 }
 
 @keyframes baba {
-  0%{margin-top: 15.7vh;
+  0%{margin-top: 15.6vh;
   margin-left: -43vw;}
-  7%{margin-top: 15.7vh;
+  7%{margin-top: 15.6vh;
   margin-left: -48vw;}
-  14%{margin-top: 15.7vh;
+  14%{margin-top: 15.6vh;
   margin-left: -43vw;}
-  21%{margin-top: 15.7vh;
+  21%{margin-top: 15.6vh;
   margin-left: -48vw;}
-  28%{margin-top: 15.7vh;
+  28%{margin-top: 15.6vh;
   margin-left: -43vw;}
-  35%{margin-top: 14.9vh;
+  35%{margin-top: 14vh;
   margin-left: -43vw;}
-  50%{margin-top: 15.7vh;
+  50%{margin-top: 15.6vh;
   margin-left: -43vw;}
   90%{margin-top: 12vh;
   margin-left: -41vw;}
