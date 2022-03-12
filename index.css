@@ -1420,7 +1420,7 @@ animation: heihou1 6s;
 .G img.view2{
   position: absolute;
   width: 10%;
-  margin-top: 15.1vh; /*13.7*/
+  margin-top: 15.6vh;
   margin-left: -43vw;
   animation: baba 7s ease;
 }
