@@ -481,11 +481,66 @@ opacity: 0;}
 .C img.comment3 {
     width: 30vw;
 }
-.C img.view {
-    width: 100%;
-    margin-left: -13.6vw;
-    padding-top: 10%;
+.C img.view1{
+    width: 90%;
 }
+.C img.view2{
+    position: absolute;
+    height: 25vh;
+    margin-left: -18vw;
+    margin-top: 25vh;
+    animation: hatake1 3s 3s infinite;
+}
+@keyframes hatake1 {
+  0%{margin-top: 25vh;}
+  50%{margin-top: 18vh;}
+  100%{margin-top: 25vh;}
+}
+.C img.view3{
+    position: absolute;
+    margin-left: -45vw;
+    margin-top: 27vh;
+    width: 45%;
+
+}
+.C img.view4{
+    position: absolute;
+    height: 23vh;
+    transform: scale(-1, 1);
+    margin-left: -40vw;
+    margin-top: 40vh;
+    animation: hatake2 2s 5s infinite;
+}
+@keyframes hatake2 {
+  0%{margin-top: 40vh;}
+  50%{margin-top: 20vh;}
+  100%{margin-top: 40vh;}
+}
+.C img.view5{
+    position: absolute;
+    width: 45%;
+    margin-left: -45vw;
+    margin-top: 42.5vh;
+}
+.C img.view6{
+    position: absolute;
+    height: 24%;
+    margin-left: -15vw;
+    margin-top: 57.5vh;
+    animation: hatake3 3s 4s infinite;
+}
+@keyframes hatake3 {
+  0%{margin-top: 57.5vh;}
+  50%{margin-top: 45vh;}
+  100%{margin-top: 57.5vh;}
+}
+.C img.view7{
+    position: absolute;
+    width: 45%;
+    margin-left: -45vw;
+    margin-top: 65.7vh;
+}
+
 
 /*4.塔のへつりのCSS*/
 .D img.title {
