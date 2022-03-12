@@ -1194,7 +1194,7 @@ opacity: 0;}
     position: absolute;
     height: 15vh;
     margin-left: -50vw;
-    margin-top: 35vh;
+    margin-top: 19vh;
     animation: hatake1 3s 3s infinite;
 }
 /*@keyframes hatake1 {
@@ -1204,7 +1204,7 @@ opacity: 0;}
 /*}*/
 .C img.view3{
     position: absolute;
-    margin-top: 45vh;/*20.3*/
+    margin-top: 20.3vh;/*20.3*/
     margin-left: -100vw;
     margin-bottom: 2.7vh;
     width: 100%;
