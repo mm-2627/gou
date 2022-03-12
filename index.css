@@ -1186,11 +1186,67 @@ opacity: 0;}
     padding-left: 10%;
     padding-top: 10%;
 }
-.C img.view {
+.C img.view1{
     width: 100%;
     padding-top: 10%;
-    margin-left: -14vw;
 }
+.C img.view2{
+    position: absolute;
+    height: 15vh;
+    margin-left: -50vw;
+    margin-top: 18vh;
+    animation: hatake1 3s 3s infinite;
+}
+@keyframes hatake1 {
+  0%{margin-top: 19vh;}
+  50%{margin-top: 15.5vh;}
+  100%{margin-top: 19vh;}
+}
+.C img.view3{
+    position: absolute;
+    margin-top: 20.3vh;
+    margin-left: -100vw;
+    margin-bottom: 2.7vh;
+    width: 100%;
+}
+.C img.view4{
+    position: absolute;
+    height: 13vh;
+    transform: scale(-1, 1);
+    margin-left: -95vw;
+    margin-top: 25vh;
+    animation: hatake2 2s 5s infinite;
+}
+@keyframes hatake2 {
+  0%{margin-top: 25vh;}
+  50%{margin-top: 19vh;}
+  100%{margin-top: 25vh;}
+}
+.C img.view5{
+    position: absolute;
+    width: 100%;
+    margin-left: -100vw;
+    margin-top: 29.4vh;
+}
+.C img.view6{
+    position: absolute;
+    height: 14vh;
+    margin-left: -30vw;
+    margin-top: 38vh;
+    animation: hatake3 3s 4s infinite;
+}
+@keyframes hatake3 {
+  0%{margin-top: 38vh;}
+  50%{margin-top: 30vh;}
+  100%{margin-top: 38vh;}
+}
+.C img.view7{
+    position: absolute;
+    width: 100%;
+    margin-left: -100vw;
+    margin-top: 42.9vh;
+}
+
 
 /*4.塔のへつりのCSS*/
 .D img.title {
@@ -1230,15 +1286,15 @@ opacity: 0;}
 }
 @keyframes anim4 {
   0%{margin-left: -90vw;
-  margin-top: 16vh;}
-  25%{margin-left: -50vw;
-  margin-top: 9vh;}
+  margin-top: 17.5vh;}
+  25%{margin-left: -55vw;
+  margin-top: 10vh;}
   35%{margin-left: -90vw;
-  margin-top: 16vh;}
-  70%{margin-left: -50vw;
-  margin-top: 9vh;}
+  margin-top: 17.5vh;}
+  70%{margin-left: -55vw;
+  margin-top: 10vh;}
   100%{margin-left: -90vw;
-  margin-top: 16vh;}
+  margin-top: 17.5vh;}
 }
 
 .D img.view3{opacity: 0;}
@@ -1370,24 +1426,22 @@ animation: heihou1 6s;
 }
 
 @keyframes baba {
-  0%{margin-top: 15.1vh;
+  0%{margin-top: 15.6vh;
   margin-left: -43vw;}
-  7%{margin-top: 15.1vh;
+  7%{margin-top: 15.6vh;
   margin-left: -48vw;}
-  14%{margin-top: 15.1vh;
+  14%{margin-top: 15.6vh;
   margin-left: -43vw;}
-  21%{margin-top: 15.1vh;
+  21%{margin-top: 15.6vh;
   margin-left: -48vw;}
-  28%{margin-top: 15.1vh;
+  28%{margin-top: 15.6vh;
   margin-left: -43vw;}
-  35%{margin-top: 13.8vh;
+  35%{margin-top: 15.1vh;
   margin-left: -43vw;}
-  50%{margin-top: 15.1vh;
+  50%{margin-top: 15.6vh;
   margin-left: -43vw;}
-  85%{margin-top: 12vh;
+  90%{margin-top: 12vh;
   margin-left: -41vw;}
-  90%{margin-top: 14vh;
-  margin-left: -43vw;}
   100%{margin-top: 18vh;
   margin-left: -41vw;}
 }
