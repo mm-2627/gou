@@ -1198,13 +1198,13 @@ opacity: 0;}
     animation: hatake1 3s 3s infinite;
 }
 @keyframes hatake1 {
-  0%{margin-top: 21.8vh;}
-  50%{margin-top: 18.3vh;}/*15.5*/
-  100%{margin-top: 21.8vh;}/*19*/
+    0%{margin-top: 21.8vh;}
+  50%{margin-top: 18.3vh;}
+  100%{margin-top: 21.8vh;}
 }
 .C img.view3{
     position: absolute;
-    margin-top: 23vh;/*20.3*/
+    margin-top: 23vh;
     margin-left: -100vw;
     margin-bottom: 2.7vh;
     width: 100%;
@@ -1219,32 +1219,32 @@ opacity: 0;}
 }
 @keyframes hatake2 {
   0%{margin-top: 29vh;}
-  50%{margin-top: 24vh;}/*19*/
-  100%{margin-top: 29vh;}/*25*/
+  50%{margin-top: 24vh;}
+  100%{margin-top: 29vh;}
 }
 .C img.view5{
     position: absolute;
     width: 100%;
     margin-left: -100vw;
-    margin-top: 33.3vh;/*29.4*/
+    margin-top: 33.3vh;
 }
 .C img.view6{
     position: absolute;
     height: 14vh;
     margin-left: -30vw;
-    margin-top: 42.1vh;
+    margin-top: 42.5vh;
     animation: hatake3 3s 4s infinite;
 }
 @keyframes hatake3 {
-  0%{margin-top: 42.1vh;}
-  50%{margin-top: 35.8vh;}/*30*/
-  100%{margin-top: 42.1vh;}/*38*/
+  0%{margin-top: 42.5vh;}
+  50%{margin-top: 37.7vh;}
+  100%{margin-top: 42.5vh;}
 }
 .C img.view7{
     position: absolute;
     width: 100%;
     margin-left: -100vw;
-    margin-top: 48.7vh; /*42.9*/
+    margin-top: 48.7vh; 
 }
 
 
