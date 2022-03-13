@@ -526,13 +526,13 @@ opacity: 0;}
     position: absolute;
     height: 24%;
     margin-left: -15vw;
-    margin-top: 57.2vh;
+    margin-top: 57.8vh;
     animation: hatake3 3s 4s infinite;
 }
 @keyframes hatake3 {
-  0%{margin-top: 57.5vh;}
+  0%{margin-top: 57.8vh;}
   50%{margin-top: 45vh;}
-  100%{margin-top: 57.5vh;}
+  100%{margin-top: 57.8vh;}
 }
 .C img.view7{
     position: absolute;
