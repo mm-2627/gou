@@ -8,15 +8,15 @@ body {
     margin: 0;
     background-size: cover;
     background-image: url(img/logo/logo.png);
-    background-size: 23%;
-    background-repeat: no-repeat;
+    background-size: 25%;
+    background-repeat: repeat;
     background-attachment: fixed;
 }
 .main {
     width: 50%;
     min-height: 100vh;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255,0.4);
+    background-color: rgba(255, 255, 255,0.7);
     padding-bottom: 5vh;
 }
 p {
