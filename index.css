@@ -399,11 +399,7 @@ margin-left: -40vw;
 margin-top: 25vh;
 opacity: 1;
 position: absolute;
-
-animation-name: jiji;
-animation-duration: 7s; /*開始から終了までの時間*/
-animation-iteration-count: 1; /*繰り返し*/
-animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+animation: jiji 7s infinite ease;
 }
 
 
@@ -450,11 +446,7 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
   top: 170vh;
   right: 25vw;
   width: 15vw;
-
-  animation-name: ga2;
-  animation-duration: 12s; /*開始から終了までの時間*/
-  animation-iteration-count: 1; /*繰り返し*/
-  animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+  animation: ga2 12s infinite ease;
 }
 
 @keyframes ga2{
@@ -704,7 +696,7 @@ opacity: 0;}
   position: relative;
   left: 22vw;
   top: -70vh;
-  animation: heihou1 4s 1 ease;
+  animation: heihou1 4s infinite ease;
 }
 
 @keyframes heihou1{
@@ -749,7 +741,7 @@ opacity: 0;}
   width: 6%;
   margin-top: 25.5vh;
   margin-left: -22vw;
-  animation: baba 7s 2s ease;
+  animation: baba 7s 2s infinite ease;
 }
 
 @keyframes baba {
@@ -1096,11 +1088,7 @@ margin-left: -75vw;
 margin-top: 15vh;
 opacity: 1;
 position: absolute;
-
-animation-name: jiji;
-animation-duration: 7s; /*開始から終了までの時間*/
-animation-iteration-count: 1; /*繰り返し*/
-animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+animation: jiji 7s infinite ease;
 }
 
     
@@ -1144,16 +1132,12 @@ animation-timing-function: ease; /*加速度  ease:ゆっくり*/
   width: 95%;
 }
 
-.ga2{
+.B img.ga2{
 position: absolute;
 padding-top: 20vh;
 right: 0vw;
 width: 30vw;
-
-animation-name: ga2;
-animation-duration: 12s; /*開始から終了までの時間*/
-animation-iteration-count: 1; /*繰り返し*/
-animation-timing-function: ease; /*加速度  ease:ゆっくり*/
+animation: ga2 12s infinite ease;
 }
 
 
@@ -1377,7 +1361,7 @@ height:  11vh;
 position: relative;
 left: 58vw;
 top: -30vh;
-animation: heihou1 6s;
+animation: heihou1 6s infinite;
 }
 @keyframes heihou1{
 100% {
@@ -1422,7 +1406,7 @@ animation: heihou1 6s;
   width: 10%;
   margin-top: 15.7vh;
   margin-left: -43vw;
-  animation: baba 7s 2s ease;
+  animation: baba 7s 2s infinite ease;
 }
 
 @keyframes baba {
