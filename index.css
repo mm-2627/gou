@@ -842,6 +842,23 @@ footer {
 .index {
     padding: 0 15vw;
 }
+.welcome{
+  width: 110%;
+  margin-left: 10%;
+}
+
+.sit{
+  position: absolute;
+  width: 120%;
+  margin-left: -47%;
+  margin-top: -27%;
+}
+
+.hand{
+  width: 110%;
+  margin-top: 70%;
+  margin-left: 28%;
+}
 .icon1-1 {
     padding-top: 0vh;
     width: 70vw;
