@@ -55,6 +55,25 @@ footer {
     display: inline-block;
     width: 0%;
 }
+    
+.welcome{
+  width: 70%;
+  margin-left: 20%;
+}
+
+.sit{
+  position: absolute;
+  width: 40%;
+  margin-left: -56%;
+  margin-top: 18%;
+}
+
+.hand{
+  width: 60%;
+  margin-top: 10%;
+  margin-left: 47%;
+}
+    
 .icon1-1 {
     width: 25vw;
     padding-top: 5vh;
