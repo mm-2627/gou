@@ -870,6 +870,7 @@ footer {
     width: 35vw;
 }
 .icon2 {
+    padding-top: 10vh;/*なし*/
     padding-left: 5vw;
     padding-bottom: 0vh;
     width: 60vw;
@@ -877,23 +878,25 @@ footer {
 .icon2-2{
   padding-left: 10vw;
   padding-bottom: 5vh;
-  margin-top: -75vh;
+  margin-top: -65vh;/*-75*/
   width: 51vw;
 }
 .icon3 {
     width: 70vw;
     padding-bottom: 5vh;
+    padding-top: 10vh;/*なし*/
 }
 .icon3-2{
   position: absolute;
   width: 55vw;
   padding-bottom: 5vh;
-  margin-top: -28vh;
+  margin-top: -18vh;/*28*/
   margin-left: 4vh;
 }
 
 .icon4-1 {
     width: 52vw;
+    padding-top: 10vh;/*なし*/
     padding-left: 5vw;
     padding-bottom: 11vh;
     animation: anime4 0.1s infinite;
@@ -905,15 +908,18 @@ footer {
 
 .icon4-2 {
     width: 70vw;
+    padding-top: 10vh;/*なし*/
     padding-bottom: 5vh;
 }
 .icon5-1 {
     width: 40vw;
+    padding-top: 10vh;/*なし*/
     padding-left: 5vw;
 }
 .icon5-2 {
     width: 37vw;
     padding-left: 33vw;
+    padding-top: 10vh;/*なし*/
     padding-bottom: 10vh;
     animation: anime5 1s infinite;
 }
@@ -929,7 +935,7 @@ footer {
 .icon6-1 {
     width: 60vw;
     padding-left: 5vw;
-    padding-top: 7vh;
+    padding-top: 17vh;/*7*/
     padding-bottom: 7vh;
     animation: anime6 0.1s infinite;
 }
@@ -939,19 +945,20 @@ footer {
 }
 
 .icon6-2 {
-    margin-top: -10vh;
+    margin-top: 0vh;/*-10*/
     width: 70vw;
 }
 
 .icon7-1{
     width: 11vw;
-    padding-top: 3vh;
+    padding-top: 13vh;/*3*/
     float: left;
 }
 .icon7-2{
     width: 40vw;
     position: absolute;
     padding-left: 4vw;
+    padding-top: 10vh;/*なし*/
     float: left;
     animation: anime7 3s infinite;
     opacity: 0.9;
@@ -967,12 +974,13 @@ footer {
 }
 .icon7-3{
     width: 10vw;
-    padding-top: 2vh;
+    padding-top: 12vh;/*2*/
     padding-left: 50vw;
 
 }
 .icon7-4{
     width: 64vw;
+    padding-top: 10vh;/*なし*/
     margin-left: -5vw;
 }
 
