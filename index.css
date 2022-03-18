@@ -124,7 +124,7 @@ footer {
 
 .icon2-2:hover{
   animation: numa 3s;
-  opacity: 0;
+  opacity: 1;
 }
 
 @keyframes numa {
@@ -148,7 +148,7 @@ footer {
 
 .icon3-2:hover{
   animation: anime3 5s;
-  opacity: 0;
+  opacity: 1;
 }
 
 @keyframes anime3 {
