@@ -139,14 +139,7 @@ footer {
 }
 
 .icon3-2:hover{
-  animation: anime3 5s;
   opacity: 1;
-}
-
-@keyframes anime3 {
-  100%{
-    opacity: 1;
-  }
 }
 
 
