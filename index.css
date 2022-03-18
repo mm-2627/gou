@@ -114,7 +114,6 @@ footer {
 }
 
 .icon2-2{
-  
   height: 32vh;
   width: 21vw;
   margin-left: 4vw;
@@ -123,14 +122,7 @@ footer {
 }
 
 .icon2-2:hover{
-  animation: numa 3s;
   opacity: 1;
-}
-
-@keyframes numa {
-  100%{
-    opacity: 1;
-  }
 }
 
 .icon3 {
