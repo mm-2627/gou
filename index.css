@@ -1350,6 +1350,60 @@ opacity: 0;}
 }
 .D .box {
     display: inline-block;
+    width: 50%;
+}
+.D img.comment1 {
+    width: 130%;
+    padding-top: 15%;
+    padding-bottom: 35%;
+    transform: rotate(20deg);
+}
+.D img.comment2 {
+    width: 140%;
+    padding-left: 36%;
+    padding-bottom: 55%;
+    transform: rotate(15deg);
+}
+.D img.comment3 {
+    width: 150%;
+    padding-left: 20%;
+    padding-bottom: 35%;
+    transform: rotate(-35deg);
+}
+
+.D img.view1 {
+    width: 90%;
+}
+.D img.view2 {
+    position: absolute;
+    transform: scale(-1, 1);
+    width: 13%;
+    margin-left: -90vw;
+    margin-top: 15vh;
+    animation: anim4 3s infinite;
+}
+@keyframes anim4 {
+  0%{margin-left: -90vw;
+  margin-top: 15vh;}
+  25%{margin-left: -50vw;
+  margin-top: 8vh;}
+  35%{margin-left: -90vw;
+  margin-top: 15vh;}
+  70%{margin-left: -50vw;
+  margin-top: 8vh;}
+  100%{margin-left: -90vw;
+  margin-top: 15vh;}
+}
+
+.D img.view3{opacity: 0;}
+/*.D img.title {
+    width: 30%;
+}
+.D .contents {
+    padding-top: 3vh;
+}
+.D .box {
+    display: inline-block;
     width: 20%;
 }
 .D img.comment1 {
@@ -1390,7 +1444,7 @@ opacity: 0;}
   margin-top: 17.4vh;}
 }
 
-.D img.view3{opacity: 0;}
+.D img.view3{opacity: 0;}*/
 
 /*5.中山風穴のCSS*/
 .E img.title{
