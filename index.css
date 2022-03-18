@@ -890,7 +890,7 @@ footer {
   position: absolute;
   width: 55vw;
   padding-bottom: 5vh;
-  margin-top: -18vh;/*28*/
+  margin-top: 18vh;/*28*/
   margin-left: 4vh;
 }
 
@@ -980,7 +980,7 @@ footer {
 }
 .icon7-4{
     width: 64vw;
-    padding-top: 10vh;/*なし*/
+    padding-top: -10vh;/*なし*/
     margin-left: -5vw;
 }
 
