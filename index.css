@@ -1260,14 +1260,14 @@ opacity: 0;}
 .C img.view4{
     position: absolute;
     margin-top: -24%;
-    margin-left: -10%;
+    margin-left: 0%;/*65%*/
     width: 30%;
 }
 
 .C img.view5{
     position: absolute;
     margin-top: -30%;
-    margin-left: -60%;
+    margin-left: 0%;/*5%*/
     width: 30%;
     transform: scale(-1, 1);
 }
