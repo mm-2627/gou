@@ -1590,8 +1590,7 @@ animation: heihou1 6s infinite;
 }
 .G img.view3{
     position: absolute;
-    margin-left: -80vw;
-    margin-top: 33%;
+    margin: 33% 0% 10% -80vw;
     width: 80%;
 }
 
