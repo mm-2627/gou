@@ -1101,27 +1101,27 @@ footer {
     }
 
     .ani1{
-      transform: translateY(5vh);
+      transform: translateY(7vh);
     }
 
     .ani2{
-      transform: translateY(10vh);
-    }
-
-    .ani3{
       transform: translateY(13vh);
     }
 
-    .ani4{
-      transform: translateY(15vh);
-    }
-
-    .ani5{
+    .ani3{
       transform: translateY(17vh);
     }
 
+    .ani4{
+      transform: translateY(23vh);
+    }
+
+    .ani5{
+      transform: translateY(28vh);
+    }
+
     .ani6{
-      transform: translateY(20vh);
+      transform: translateY(33vh);
     }
 
 
