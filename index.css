@@ -1664,6 +1664,13 @@ animation: heihou1 6s infinite;
   100%{margin-top: 35%;
   margin-left: -42%;}
 }
+.G img.view3{
+    position: absolute;
+    margin-left: -80vw;
+    margin-top: 33%;
+    width: 80%;
+}
+
 /*.G img.view2{
   position: absolute;
   width: 10%;
